@@ -2,7 +2,7 @@
 
 /*
  
-Softserve | Homework 1
+SoftServe | Homework 1
 
 Author: Claudio Rain
 
