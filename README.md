@@ -1,10 +1,15 @@
 # SoftServe ProjectLab
 
+En esta branch se encuentran las tareas realizadas por el alumno Guillermo Oliva.
 
+Solo se suben los archivos .cs, .csproj y .sln, por tanto para ejecutar se debe utilizar los comandos:
 
-## Tasks
+`dotnet build`
+`dotnet run`
 
-### Task 1
+## Tareas
+
+### Tarea 1
 
 22-nov. Requiere:
 
@@ -15,26 +20,24 @@
 5. Intentar hacer merge con feature-b
 6. Resolver conflictos y finalizar el merge
 
-### Task 2
+### Tarea 2
 
-23-nov. Requiere:
+23-nov. Se dieron dos tareas:
+
+#### Homework 1
+
+1. Definir a, leer el valor desde consola y calcular el área y perimetro de un cuadrado con lado a.
+2. Definir variable name y age, leerlas desde consola y mostrarlas.
+3. Leer radio, calcular perimetro y área de un círculo con ese radio, y el volumen de una esfera con ese radio
+
+#### Task 1
 
 1. Definir enteros a y b y calcular suma, resta, multiplicación y división.
 2. Preguntar "Como estás?" y mostar "Estás <respuesta/>".
 3. Leer 3 chars y mostrar.
 4. Dados dos enteros, comprobar si ambos son positivos.
 
-## Homeworks
-
-### Homework 1
-
-23-nov. Requiere:
-
-1. Definir a, leer el valor desde consola y calcular el área y perimetro de un cuadrado con lado a.
-2. Definir variable name y age, leerlas desde consola y mostrarlas.
-3. Leer radio, calcular perimetro y área de un círculo con ese radio, y el volumen de una esfera con ese radio
-
-### Homework 2
+### Tarea 3
 
 24-nov. Requiere:
 
@@ -42,3 +45,5 @@
 2. Leer 3 enteros y escribir el valor más pequeño y el más grande.
 3. Leer número de error HTTP y escribir el nombre del error (utilizando enum).
 4. Declarar struct para un perro, con campos nombre, raza y edad. Crear un perro y agregarle valores, mostrar en pantalla.
+
+
