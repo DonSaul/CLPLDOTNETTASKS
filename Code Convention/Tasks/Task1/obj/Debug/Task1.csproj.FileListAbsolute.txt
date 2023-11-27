@@ -1,0 +1,7 @@
+D:\Study\SoftServe\CLPLDOTNETTASKS\Code Convention\Tasks\Task1\obj\Debug\Task1.csproj.AssemblyReference.cache
+D:\Study\SoftServe\CLPLDOTNETTASKS\Code Convention\Tasks\Task1\obj\Debug\Task1.csproj.CoreCompileInputs.cache
+D:\Study\SoftServe\CLPLDOTNETTASKS\Code Convention\Tasks\Task1\bin\Debug\Task1.exe.config
+D:\Study\SoftServe\CLPLDOTNETTASKS\Code Convention\Tasks\Task1\bin\Debug\Task1.exe
+D:\Study\SoftServe\CLPLDOTNETTASKS\Code Convention\Tasks\Task1\bin\Debug\Task1.pdb
+D:\Study\SoftServe\CLPLDOTNETTASKS\Code Convention\Tasks\Task1\obj\Debug\Task1.exe
+D:\Study\SoftServe\CLPLDOTNETTASKS\Code Convention\Tasks\Task1\obj\Debug\Task1.pdb
