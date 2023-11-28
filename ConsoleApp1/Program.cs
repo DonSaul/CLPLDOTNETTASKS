@@ -33,6 +33,20 @@ class Program
         {
             Console.WriteLine("Whatever you just typed was not a number, sorry");
         }
+        Console.WriteLine("Input a valid circle raduis:");
+        double r;
+        s = Console.ReadLine();
+        rez = double.TryParse(s, out r);
+        if (rez)
+        {
+            Console.WriteLine("Circunference length: {0:F3}", 2 * Math.PI * r);
+            Console.WriteLine("Circle area: {0:F3}", Math.PI * r * r);
+            Console.WriteLine("Sphere volume: {0:F3}", Math.PI * r * r * r * 4/3);
+        }
+        else
+        {
+            Console.WriteLine("Whatever you just typed was not a number, sorry");
+        }
         return 0;
     }
 }
