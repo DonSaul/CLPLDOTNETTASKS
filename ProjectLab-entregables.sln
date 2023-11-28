@@ -5,7 +5,14 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework-1", "Homework-1\Homework-1\Homework-1.csproj", "{E02B6976-FE5D-4B96-92E8-A65098C3F96A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework-2", "Homework-2\Homework-2\Homework-2.csproj", "{E02B6976-FE5D-4B96-92E8-A65098C3F96A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Homework-2", "Homework-2", "{84C47058-FF1D-48AE-A835-5A398F04511B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework-2", "Homework-2\Homework-2\Homework-2.csproj", "{7D81DC27-DE39-4CDA-ACFB-5075FEF3B5A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0F583081-73FD-4CF2-BB1D-3874B7775D7C}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,5 +21,7 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 	EndGlobalSection
 EndGlobal
