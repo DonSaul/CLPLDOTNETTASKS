@@ -1,0 +1,14 @@
+C:\Users\franc\OneDrive\Documents\Tareas_Taller.NET\homework1\bin\Debug\net8.0\homework1.exe
+C:\Users\franc\OneDrive\Documents\Tareas_Taller.NET\homework1\bin\Debug\net8.0\homework1.deps.json
+C:\Users\franc\OneDrive\Documents\Tareas_Taller.NET\homework1\bin\Debug\net8.0\homework1.runtimeconfig.json
+C:\Users\franc\OneDrive\Documents\Tareas_Taller.NET\homework1\bin\Debug\net8.0\homework1.dll
+C:\Users\franc\OneDrive\Documents\Tareas_Taller.NET\homework1\bin\Debug\net8.0\homework1.pdb
+C:\Users\franc\OneDrive\Documents\Tareas_Taller.NET\homework1\obj\Debug\net8.0\homework1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\franc\OneDrive\Documents\Tareas_Taller.NET\homework1\obj\Debug\net8.0\homework1.AssemblyInfoInputs.cache
+C:\Users\franc\OneDrive\Documents\Tareas_Taller.NET\homework1\obj\Debug\net8.0\homework1.AssemblyInfo.cs
+C:\Users\franc\OneDrive\Documents\Tareas_Taller.NET\homework1\obj\Debug\net8.0\homework1.csproj.CoreCompileInputs.cache
+C:\Users\franc\OneDrive\Documents\Tareas_Taller.NET\homework1\obj\Debug\net8.0\homework1.dll
+C:\Users\franc\OneDrive\Documents\Tareas_Taller.NET\homework1\obj\Debug\net8.0\refint\homework1.dll
+C:\Users\franc\OneDrive\Documents\Tareas_Taller.NET\homework1\obj\Debug\net8.0\homework1.pdb
+C:\Users\franc\OneDrive\Documents\Tareas_Taller.NET\homework1\obj\Debug\net8.0\homework1.genruntimeconfig.cache
+C:\Users\franc\OneDrive\Documents\Tareas_Taller.NET\homework1\obj\Debug\net8.0\ref\homework1.dll
