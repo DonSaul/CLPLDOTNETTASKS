@@ -170,9 +170,50 @@ namespace Task1
 
         static void Opcion4()
         {
-            Console.WriteLine("Pulsa una tecla para volver al menú");
-            Console.ReadKey();
-            Console.Clear();
+            int a;
+            int b;
+            bool aIsPositive;
+            bool bIsPositive;
+            try
+            {
+                Console.WriteLine("Ingresa el valor de A:");
+                a = int.Parse(Console.ReadLine());
+                Console.WriteLine("Ingresa el valor de B:");
+                b = int.Parse(Console.ReadLine());
+
+                aIsPositive = a >= 0 ? true : false;
+                bIsPositive = b >= 0 ? true : false;
+
+                Console.WriteLine("");
+
+                if (aIsPositive) {
+                    Console.WriteLine("A es positivo");
+                } else {
+                    Console.WriteLine("A es negativo");
+                }
+
+                if (bIsPositive) {
+                    Console.WriteLine("B es positivo");
+                } else {
+                    Console.WriteLine("B es negativo");
+                }
+                
+                Console.WriteLine("");
+                Console.WriteLine("");
+                Console.WriteLine("Pulsa una tecla para volver al menú");
+                Console.ReadKey();
+                Console.Clear();
+            }
+            catch (Exception)
+            {
+                Console.Clear();
+                Console.WriteLine("Ocurrió un error fatal, probablemente debes poner solo números enteros.");
+                Console.WriteLine("");
+                Console.WriteLine("Pulsa una tecla para volver a intentarlo");
+                Console.ReadKey();
+                Console.Clear();
+                Opcion4();
+            }
         }
     }
 }
