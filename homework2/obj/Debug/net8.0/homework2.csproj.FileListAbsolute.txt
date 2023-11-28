@@ -1,0 +1,15 @@
+/home/kotch/Documents/Curso .NET/CLPLDOTNETTASKS/homework2/bin/Debug/net8.0/homework2
+/home/kotch/Documents/Curso .NET/CLPLDOTNETTASKS/homework2/bin/Debug/net8.0/homework2.deps.json
+/home/kotch/Documents/Curso .NET/CLPLDOTNETTASKS/homework2/bin/Debug/net8.0/homework2.runtimeconfig.json
+/home/kotch/Documents/Curso .NET/CLPLDOTNETTASKS/homework2/bin/Debug/net8.0/homework2.dll
+/home/kotch/Documents/Curso .NET/CLPLDOTNETTASKS/homework2/bin/Debug/net8.0/homework2.pdb
+/home/kotch/Documents/Curso .NET/CLPLDOTNETTASKS/homework2/obj/Debug/net8.0/homework2.GeneratedMSBuildEditorConfig.editorconfig
+/home/kotch/Documents/Curso .NET/CLPLDOTNETTASKS/homework2/obj/Debug/net8.0/homework2.AssemblyInfoInputs.cache
+/home/kotch/Documents/Curso .NET/CLPLDOTNETTASKS/homework2/obj/Debug/net8.0/homework2.AssemblyInfo.cs
+/home/kotch/Documents/Curso .NET/CLPLDOTNETTASKS/homework2/obj/Debug/net8.0/homework2.csproj.CoreCompileInputs.cache
+/home/kotch/Documents/Curso .NET/CLPLDOTNETTASKS/homework2/obj/Debug/net8.0/homework2.sourcelink.json
+/home/kotch/Documents/Curso .NET/CLPLDOTNETTASKS/homework2/obj/Debug/net8.0/homework2.dll
+/home/kotch/Documents/Curso .NET/CLPLDOTNETTASKS/homework2/obj/Debug/net8.0/refint/homework2.dll
+/home/kotch/Documents/Curso .NET/CLPLDOTNETTASKS/homework2/obj/Debug/net8.0/homework2.pdb
+/home/kotch/Documents/Curso .NET/CLPLDOTNETTASKS/homework2/obj/Debug/net8.0/homework2.genruntimeconfig.cache
+/home/kotch/Documents/Curso .NET/CLPLDOTNETTASKS/homework2/obj/Debug/net8.0/ref/homework2.dll
