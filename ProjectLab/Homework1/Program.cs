@@ -32,11 +32,19 @@ namespace Homework1
 
 
             // Task 2: Read user's name and age
-            string name;
+            string name = string.Empty;
             int age;
 
-            Console.WriteLine("What is your name?");
-            name = Console.ReadLine();
+            do
+            {
+                Console.WriteLine("What is your name?");
+                name = Console.ReadLine();
+
+                if (string.IsNullOrWhiteSpace(name))
+                {
+                    Console.WriteLine("Please enter a valid name.");
+                }
+            } while (string.IsNullOrWhiteSpace(name));
 
             bool isValidAge = false;
             do
