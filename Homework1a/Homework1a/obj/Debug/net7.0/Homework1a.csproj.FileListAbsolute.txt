@@ -1,0 +1,15 @@
+C:\Users\saldias.j\Documents\GITSoftserve\Homework1a\Homework1a\bin\Debug\net7.0\Homework1a.exe
+C:\Users\saldias.j\Documents\GITSoftserve\Homework1a\Homework1a\bin\Debug\net7.0\Homework1a.deps.json
+C:\Users\saldias.j\Documents\GITSoftserve\Homework1a\Homework1a\bin\Debug\net7.0\Homework1a.runtimeconfig.json
+C:\Users\saldias.j\Documents\GITSoftserve\Homework1a\Homework1a\bin\Debug\net7.0\Homework1a.dll
+C:\Users\saldias.j\Documents\GITSoftserve\Homework1a\Homework1a\bin\Debug\net7.0\Homework1a.pdb
+C:\Users\saldias.j\Documents\GITSoftserve\Homework1a\Homework1a\obj\Debug\net7.0\Homework1a.csproj.AssemblyReference.cache
+C:\Users\saldias.j\Documents\GITSoftserve\Homework1a\Homework1a\obj\Debug\net7.0\Homework1a.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saldias.j\Documents\GITSoftserve\Homework1a\Homework1a\obj\Debug\net7.0\Homework1a.AssemblyInfoInputs.cache
+C:\Users\saldias.j\Documents\GITSoftserve\Homework1a\Homework1a\obj\Debug\net7.0\Homework1a.AssemblyInfo.cs
+C:\Users\saldias.j\Documents\GITSoftserve\Homework1a\Homework1a\obj\Debug\net7.0\Homework1a.csproj.CoreCompileInputs.cache
+C:\Users\saldias.j\Documents\GITSoftserve\Homework1a\Homework1a\obj\Debug\net7.0\Homework1a.dll
+C:\Users\saldias.j\Documents\GITSoftserve\Homework1a\Homework1a\obj\Debug\net7.0\refint\Homework1a.dll
+C:\Users\saldias.j\Documents\GITSoftserve\Homework1a\Homework1a\obj\Debug\net7.0\Homework1a.pdb
+C:\Users\saldias.j\Documents\GITSoftserve\Homework1a\Homework1a\obj\Debug\net7.0\Homework1a.genruntimeconfig.cache
+C:\Users\saldias.j\Documents\GITSoftserve\Homework1a\Homework1a\obj\Debug\net7.0\ref\Homework1a.dll
