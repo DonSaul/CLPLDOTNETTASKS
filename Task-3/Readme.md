@@ -1,12 +1,9 @@
-﻿# Project Documentation
-
-## Overview
+﻿## Overview
 This project is designed to demonstrate various utility functions, ranging from basic arithmetic operations to string manipulations and input validations. It is structured into three main classes: `Solver`, `UserInteraction`, and `UserInputValidation`.
 
 ## Classes
 
 ### 1. Solver
-**Location**: `Task_3.src`
 
 **Responsibility**: 
 - The `Solver` class contains methods for performing specific operations or calculations as per the defined tasks. These tasks include arithmetic calculations, string manipulations, and logical operations.
@@ -22,7 +19,6 @@ This project is designed to demonstrate various utility functions, ranging from 
 - `HasOnlyOddDigits(int number)`: Checks if an integer consists only of odd digits.
 
 ### 2. UserInteraction
-**Location**: `Task_3.src`
 
 **Responsibility**: 
 - The `UserInteraction` class handles all user interactions. It prompts the user for input, calls the appropriate methods from the `Solver` class, and displays the results.
@@ -32,7 +28,6 @@ This project is designed to demonstrate various utility functions, ranging from 
 - Methods corresponding to each task (`HandleDivisibleByThree`, `HandlePrintEverySecondChar`, etc.) which guide the user through the process of providing input and viewing results.
 
 ### 3. UserInputValidation
-**Location**: `Task_3.src.Util`
 
 **Responsibility**: 
 - The `UserInputValidation` class provides utility functions to validate and parse user input.
