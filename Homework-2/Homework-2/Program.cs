@@ -61,72 +61,95 @@ class Program
 
     static void Main(string[] args)
     {
+        Console.WriteLine("Task #1:");
         CheckFloatRange();
+
+        Console.WriteLine("Task #2:");
         FindMaxMinIntegers();
+
+        Console.WriteLine("Task #3:");
         DisplayHttpError();
+
+        Console.WriteLine("Task #4:");
         CreateAndDisplayDog();
+
+        Console.WriteLine("\nMany thanks for trying this program! Have a good day! Process Terminated.");
     }
 
     private static void CheckFloatRange()
     {
-        Console.WriteLine("Enter three float numbers (example:  3.14 -2.5 4):");
-
         float[] numbers = new float[3];
-        for (int i = 0; i < 3; i++)
+        bool validInput = false;
+
+        while (!validInput)
         {
-            if (!float.TryParse(Console.ReadLine(), out numbers[i]))
+            Console.WriteLine("Enter three float numbers separated by spaces (example: 3.14 -2.5 4):");
+            string input = Console.ReadLine();
+            string[] parts = input.Split(' ');
+
+            if (parts.Length == 3 && TryParseFloatArray(parts, out numbers))
             {
-                Console.WriteLine("Invalid input. Please enter a valid float number.");
-                return; // Exit the function if invalid input is detected
+                validInput = true;
+            }
+            else
+            {
+                Console.WriteLine("Invalid input. Please enter 3 float numbers (example: 5 12 13)\n");
             }
         }
 
-        if (AllNumbersInRange(numbers,-5,5))
+        if (AllNumbersInRange(numbers, -5, 5))
         {
-            Console.WriteLine("All numbers belong to the range [-5,5].");
+            Console.WriteLine("Result: All numbers belong to the range [-5,5].\n");
         }
         else
         {
-            Console.WriteLine("Not all numbers belong to the range [-5,5].");
+            Console.WriteLine("Not all numbers belong to the range [-5,5].\n");
         }
     }
 
-
     private static void FindMaxMinIntegers()
     {
-        Console.WriteLine("Enter three integers (example: 5 12 13): ");
-        try
-        {
-            int int1 = int.Parse(Console.ReadLine());
-            int int2 = int.Parse(Console.ReadLine());
-            int int3 = int.Parse(Console.ReadLine());
+        Console.WriteLine("Enter three integers separated by spaces (example: 5 12 13):");
 
-            int max = Math.Max(int1, Math.Max(int2, int3));
-            int min = Math.Min(int1, Math.Min(int2, int3));
-
-            Console.WriteLine($"Max: {max}, Min: {min}");
-        }
-        catch (FormatException)
+     
+        while (true)
         {
-            Console.WriteLine("Invalid input. Please enter 3 integers (example: 5 12 13)");
+            string input = Console.ReadLine();
+            string[] parts = input.Split(' ');
+
+            if (parts.Length == 3 && TryParseIntegerArray(parts, out int[] numbers))
+            {
+                int max = numbers.Max();
+                int min = numbers.Min();
+
+                Console.WriteLine($"Max: {max}, Min: {min} \n");
+                break;
+            }
+            else
+            {
+                Console.WriteLine("\nInvalid input. Please enter 3 integer numbers separated by space (example: 5 12 13):");
+            }
         }
     }
 
     private static void DisplayHttpError()
     {
-        Console.WriteLine("Enter HTTP Error number ");
+        Console.WriteLine("Enter an HTTP Error number (e.g., 404, 500): ");
+
         try
         {
-            HTTPError error = (HTTPError)int.Parse(Console.ReadLine());
-            Console.WriteLine($"El nombre del error es: {error}");
+            string input = Console.ReadLine();
+            if (!Enum.TryParse(input, out HTTPError error) || !Enum.IsDefined(typeof(HTTPError), error))
+            {
+                Console.WriteLine("Invalid HTTP error number.");
+                return;
+            }
+
+            Console.WriteLine($"Result: The name of the error is: {error} \n");
         }
-        catch (FormatException)
+        catch (Exception ex)
         {
-            Console.WriteLine("Invalid input. Please enter a valid error number.");
-        }
-        catch (InvalidCastException)
-        {
-            Console.WriteLine("Invalid HTTP Error number.");
+            Console.WriteLine($"An unexpected error occurred: {ex.Message}");
         }
     }
 
@@ -134,25 +157,71 @@ class Program
     {
         Dog myDog = new Dog();
         Console.WriteLine("Enter dog's name, mark, and age:");
+
+        Console.Write("Dog Name: ");
         myDog.Name = Console.ReadLine();
+
+        Console.Write("Dog Mark: ");
         myDog.Mark = Console.ReadLine();
+
+        Console.Write("Dog Age: ");
         try
         {
             myDog.Age = int.Parse(Console.ReadLine());
+            Console.WriteLine("Dog data:");
             Console.WriteLine(myDog);
         }
         catch (FormatException)
         {
-            Console.WriteLine("Invalid input. Please enter a valid age.");
+            Console.WriteLine("Result: Invalid input. Please enter a valid age.");
         }
     }
 
+
+
+
+    /*UTIL FUNCTIONS*/
+
+
+
+    private static bool TryParseFloatArray(string[] parts, out float[] numbers)
+    {
+        numbers = new float[3];
+        for (int i = 0; i < parts.Length; i++)
+        {
+            if (!float.TryParse(parts[i], out numbers[i]))
+            {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    private static bool TryParseIntegerArray(string[] parts, out int[] numbers)
+    {
+        numbers = new int[3];
+        for (int i = 0; i < parts.Length; i++)
+        {
+            if (!int.TryParse(parts[i], out numbers[i]))
+            {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    private static bool TryReadFloat(out float number)
+    {
+        return float.TryParse(Console.ReadLine(), out number);
+    }
+
     /*
-    Function checks whether all the numbers in the provided array fall within
-    a specified range, inclusive of the range boundaries. 
+        Function checks whether all the numbers in the provided array fall within
+        a specified range, inclusive of the range boundaries. 
     */
     private static bool AllNumbersInRange(float[] numbers, double minRange, double maxRange)
     {
         return numbers.All(num => num >= minRange && num <= maxRange);
     }
+
 }

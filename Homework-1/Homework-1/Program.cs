@@ -56,7 +56,7 @@ class Program
             }
             else
             {
-                Console.WriteLine("Oops, it looks like something went wrong. Please enter a positive number. For example, you could write 15.75.");
+                Console.WriteLine("Oops, it looks like something went wrong. Please enter a positive number. For example, you could write 15.75");
             }
         }
     }
