@@ -181,9 +181,6 @@ class Program
 
 
     /*UTIL FUNCTIONS*/
-
-
-
     private static bool TryParseFloatArray(string[] parts, out float[] numbers)
     {
         numbers = new float[3];
