@@ -37,10 +37,10 @@ namespace Task_3.src
         {
             switch (drinkName.ToLower())
             {
-                case "coffee": return "Coffee: $2";
-                case "tea": return "Tea: $1.5";
-                case "juice": return "Juice: $3";
-                case "water": return "Water: $1";
+                case "coffee": return "$2";
+                case "tea": return "$1.5";
+                case "juice": return "$3";
+                case "water": return "$1";
                 default: return "Drink not found";
             }
         }
