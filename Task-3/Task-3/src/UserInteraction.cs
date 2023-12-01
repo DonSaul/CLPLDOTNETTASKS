@@ -25,7 +25,9 @@ namespace Task_3.src
             }
 
             int count = solver.CountDivisibleByThree(a, b);
-            Console.WriteLine($"Result: There are {count} integers divisible by 3 in the range [{a}..{b}].");
+            string countText = count == 1 ? "integer" : "integers";
+            Console.WriteLine($"Result: There {((count == 1) ? "is" : "are")} {count} {countText} divisible by 3 in the range [{a}..{b}].");
+
         }
 
         // Task 2
