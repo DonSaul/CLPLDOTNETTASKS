@@ -2,7 +2,7 @@
 This project is designed to demonstrate various utility functions, ranging from basic arithmetic operations to string manipulations and input validations. It is structured into three main classes: `Solver`, `UserInteraction`, and `UserInputValidation`.
 
 ## Classes
-![Class Diagram](Images/Task-3-Class-Diagram.png "Class Diagram")
+![Class Diagram](Task-3-Class-Diagram.png "Class Diagram")
 
 ### 1. Solver
 
