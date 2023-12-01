@@ -40,7 +40,9 @@ This project is designed to demonstrate various utility functions, ranging from 
 - `GetValidStringFromOptions(string[] options)`: Validates a string input against a set of allowed options.
 - `GetPositiveIntegersSequence()`: Retrieves a sequence of positive integers from the user, stopping at a negative input.
 
----
+## Example Prompt
+![Class Diagram](Example-prompt.png "Example prompt")
 
+---
 *Note: This document provides a basic overview of the project structure and class responsibilities. For detailed implementation, refer to the source code.*
 

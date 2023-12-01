@@ -56,7 +56,7 @@ namespace Task_3.src
         {
             var numbers = UserInputValidation.GetPositiveIntegersSequence();
             double average = solver.CalculateAverage(numbers);
-            Console.WriteLine($"Result: The arithmetic average of the entered numbers is {average}.");
+            Console.WriteLine($"Result: The arithmetic average of the entered numbers is {average:F2}.");
         }
 
         // Task 5
