@@ -16,7 +16,7 @@ public class Program2
         float[] floats = new float[3];
         for (int i = 0; i < floats.Length; i++)
         {
-            Console.Write("{0}>", (i + 1));
+            Console.Write("{0}> ", (i + 1));
             string? s = Console.ReadLine();
             bool rez = float.TryParse(s, out float value);
             if (rez) { floats[i] = value; } else
@@ -39,7 +39,7 @@ public class Program2
         int max = int.MinValue;
         for(int i = 0;i < 3; i++)
         {
-            Console.Write("{0}>", (i + 1));
+            Console.Write("{0}> ", (i + 1));
             string? s = Console.ReadLine();
             bool rez = Int32.TryParse(s, out int value);
             if (rez)
