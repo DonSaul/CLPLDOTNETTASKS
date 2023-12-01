@@ -2,11 +2,12 @@
 This project is designed to demonstrate various utility functions, ranging from basic arithmetic operations to string manipulations and input validations. It is structured into three main classes: `Solver`, `UserInteraction`, and `UserInputValidation`.
 
 ## Classes
+![Class Diagram](Images/Task-3-Class-Diagram.png "Class Diagram")
 
 ### 1. Solver
 
 **Responsibility**: 
-- The `Solver` class contains methods for performing specific operations or calculations as per the defined tasks. These tasks include arithmetic calculations, string manipulations, and logical operations.
+- Contains methods for performing specific operations or calculations as per the defined tasks. These tasks include arithmetic calculations, string manipulations, and logical operations.
 - It acts as the core logic provider for the application, performing the required computations and returning results.
 
 **Methods**:
@@ -21,7 +22,7 @@ This project is designed to demonstrate various utility functions, ranging from 
 ### 2. UserInteraction
 
 **Responsibility**: 
-- The `UserInteraction` class handles all user interactions. It prompts the user for input, calls the appropriate methods from the `Solver` class, and displays the results.
+- Handle all user interactions. It prompts the user for input, calls the appropriate methods from the `Solver` class, and displays the results.
 - It acts as an interface between the user and the application's logic.
 
 **Methods**:
@@ -30,7 +31,7 @@ This project is designed to demonstrate various utility functions, ranging from 
 ### 3. UserInputValidation
 
 **Responsibility**: 
-- The `UserInputValidation` class provides utility functions to validate and parse user input.
+- Provide utility functions to validate and parse user input.
 - It ensures that the inputs provided by users are in the correct format and are valid before they are processed by the `Solver` class. This helps in preventing runtime errors and exceptions.
 
 **Methods**:

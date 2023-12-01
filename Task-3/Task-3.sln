@@ -5,6 +5,11 @@ VisualStudioVersion = 25.0.1706.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task-3", "Task-3\Task-3.csproj", "{42355928-841E-4698-A79F-455886BCD61D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{16A3EBF3-63E9-40A0-B590-857B1E883387}"
+	ProjectSection(SolutionItems) = preProject
+		Task-3-Class-Diagram.png = Task-3-Class-Diagram.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
