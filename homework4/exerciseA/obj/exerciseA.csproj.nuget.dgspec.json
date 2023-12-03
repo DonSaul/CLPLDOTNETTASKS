@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/kotch/Documents/Curso .NET/CLPLDOTNETTASKS/homework4/exerciseA/exerciseA.csproj": {}
+    "C:\\Users\\franc\\OneDrive\\Documents\\CLPLDOTNETTASKS\\homework4\\exerciseA\\exerciseA.csproj": {}
   },
   "projects": {
-    "/home/kotch/Documents/Curso .NET/CLPLDOTNETTASKS/homework4/exerciseA/exerciseA.csproj": {
+    "C:\\Users\\franc\\OneDrive\\Documents\\CLPLDOTNETTASKS\\homework4\\exerciseA\\exerciseA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/kotch/Documents/Curso .NET/CLPLDOTNETTASKS/homework4/exerciseA/exerciseA.csproj",
+        "projectUniqueName": "C:\\Users\\franc\\OneDrive\\Documents\\CLPLDOTNETTASKS\\homework4\\exerciseA\\exerciseA.csproj",
         "projectName": "exerciseA",
-        "projectPath": "/home/kotch/Documents/Curso .NET/CLPLDOTNETTASKS/homework4/exerciseA/exerciseA.csproj",
-        "packagesPath": "/home/kotch/.nuget/packages/",
-        "outputPath": "/home/kotch/Documents/Curso .NET/CLPLDOTNETTASKS/homework4/exerciseA/obj/",
+        "projectPath": "C:\\Users\\franc\\OneDrive\\Documents\\CLPLDOTNETTASKS\\homework4\\exerciseA\\exerciseA.csproj",
+        "packagesPath": "C:\\Users\\franc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\franc\\OneDrive\\Documents\\CLPLDOTNETTASKS\\homework4\\exerciseA\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/kotch/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\franc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

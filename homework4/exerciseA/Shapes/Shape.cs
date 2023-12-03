@@ -3,15 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace
-{
+
     //** Definimos la clase Shape.
-    public class Shape
+    public abstract class Shape
     {
         //** Definimos sus atributos.
-        public string Name { get; set; };
-        public double Area { get; protected set; };
-        public double Perimeter { get; protected set; };
+        public string Name { get; protected set; }
+        public double Area { get; protected set; }
+        public double Perimeter { get; protected set; }
 
         //** Definimos funciones de la clase Shape
         public abstract void CalculateArea();
@@ -21,7 +20,7 @@ namespace
     public class Circle : Shape
     {
         //** Definimos sus atributos.
-        public double Radius { get; set; };
+        public double Radius { get; set; }
         //** Definimos Circle
         public Circle(double radius)
         {
@@ -50,7 +49,7 @@ namespace
         //** Definimos sus atributos.
         public double Side { get; set;}
         //** Definimos Square
-        public Square()
+        public Square(int side)
         {
             Name = "Square";
             Side = side;
@@ -72,4 +71,3 @@ namespace
             Perimeter = 4 * Side;
         }
     }
-}
