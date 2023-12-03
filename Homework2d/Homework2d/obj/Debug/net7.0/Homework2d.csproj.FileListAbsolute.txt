@@ -1,0 +1,15 @@
+C:\Users\saldias.j\Documents\GITSoftserve\Homework2d\Homework2d\bin\Debug\net7.0\Homework2d.exe
+C:\Users\saldias.j\Documents\GITSoftserve\Homework2d\Homework2d\bin\Debug\net7.0\Homework2d.deps.json
+C:\Users\saldias.j\Documents\GITSoftserve\Homework2d\Homework2d\bin\Debug\net7.0\Homework2d.runtimeconfig.json
+C:\Users\saldias.j\Documents\GITSoftserve\Homework2d\Homework2d\bin\Debug\net7.0\Homework2d.dll
+C:\Users\saldias.j\Documents\GITSoftserve\Homework2d\Homework2d\bin\Debug\net7.0\Homework2d.pdb
+C:\Users\saldias.j\Documents\GITSoftserve\Homework2d\Homework2d\obj\Debug\net7.0\Homework2d.csproj.AssemblyReference.cache
+C:\Users\saldias.j\Documents\GITSoftserve\Homework2d\Homework2d\obj\Debug\net7.0\Homework2d.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saldias.j\Documents\GITSoftserve\Homework2d\Homework2d\obj\Debug\net7.0\Homework2d.AssemblyInfoInputs.cache
+C:\Users\saldias.j\Documents\GITSoftserve\Homework2d\Homework2d\obj\Debug\net7.0\Homework2d.AssemblyInfo.cs
+C:\Users\saldias.j\Documents\GITSoftserve\Homework2d\Homework2d\obj\Debug\net7.0\Homework2d.csproj.CoreCompileInputs.cache
+C:\Users\saldias.j\Documents\GITSoftserve\Homework2d\Homework2d\obj\Debug\net7.0\Homework2d.dll
+C:\Users\saldias.j\Documents\GITSoftserve\Homework2d\Homework2d\obj\Debug\net7.0\refint\Homework2d.dll
+C:\Users\saldias.j\Documents\GITSoftserve\Homework2d\Homework2d\obj\Debug\net7.0\Homework2d.pdb
+C:\Users\saldias.j\Documents\GITSoftserve\Homework2d\Homework2d\obj\Debug\net7.0\Homework2d.genruntimeconfig.cache
+C:\Users\saldias.j\Documents\GITSoftserve\Homework2d\Homework2d\obj\Debug\net7.0\ref\Homework2d.dll
