@@ -1,0 +1,15 @@
+C:\Users\saldias.j\Documents\GITSoftserve\Task3a\Task3a\bin\Debug\net7.0\Task3a.exe
+C:\Users\saldias.j\Documents\GITSoftserve\Task3a\Task3a\bin\Debug\net7.0\Task3a.deps.json
+C:\Users\saldias.j\Documents\GITSoftserve\Task3a\Task3a\bin\Debug\net7.0\Task3a.runtimeconfig.json
+C:\Users\saldias.j\Documents\GITSoftserve\Task3a\Task3a\bin\Debug\net7.0\Task3a.dll
+C:\Users\saldias.j\Documents\GITSoftserve\Task3a\Task3a\bin\Debug\net7.0\Task3a.pdb
+C:\Users\saldias.j\Documents\GITSoftserve\Task3a\Task3a\obj\Debug\net7.0\Task3a.csproj.AssemblyReference.cache
+C:\Users\saldias.j\Documents\GITSoftserve\Task3a\Task3a\obj\Debug\net7.0\Task3a.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saldias.j\Documents\GITSoftserve\Task3a\Task3a\obj\Debug\net7.0\Task3a.AssemblyInfoInputs.cache
+C:\Users\saldias.j\Documents\GITSoftserve\Task3a\Task3a\obj\Debug\net7.0\Task3a.AssemblyInfo.cs
+C:\Users\saldias.j\Documents\GITSoftserve\Task3a\Task3a\obj\Debug\net7.0\Task3a.csproj.CoreCompileInputs.cache
+C:\Users\saldias.j\Documents\GITSoftserve\Task3a\Task3a\obj\Debug\net7.0\Task3a.dll
+C:\Users\saldias.j\Documents\GITSoftserve\Task3a\Task3a\obj\Debug\net7.0\refint\Task3a.dll
+C:\Users\saldias.j\Documents\GITSoftserve\Task3a\Task3a\obj\Debug\net7.0\Task3a.pdb
+C:\Users\saldias.j\Documents\GITSoftserve\Task3a\Task3a\obj\Debug\net7.0\Task3a.genruntimeconfig.cache
+C:\Users\saldias.j\Documents\GITSoftserve\Task3a\Task3a\obj\Debug\net7.0\ref\Task3a.dll
