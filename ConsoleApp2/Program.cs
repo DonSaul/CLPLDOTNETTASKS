@@ -8,6 +8,8 @@ public class Program2
         CheckForFloatsInRange();
         Console.WriteLine("2) Min/max of 3 ints");
         CheckMaxMinInts();
+        Console.WriteLine("3) Http error code");
+        CheckHttpErrorCode();
     }
 
     private static void CheckForFloatsInRange()
@@ -55,6 +57,26 @@ public class Program2
         }
         Console.WriteLine("The max of those ints is {0}", max);
         Console.WriteLine("The min of those ints is {0}", min);
+    }
+
+    private static void CheckHttpErrorCode()
+    {
+        Console.WriteLine("Please, type in a small integer to see if it's a n HTTP code:");
+        string? s = Console.ReadLine();
+        bool rez = Int16.TryParse(s, out short code);
+        if (!rez)
+        {
+            Console.WriteLine("Sorry, that's not even a number! (or it's FAR too large)");
+            return;
+        }
+        if (Enum.IsDefined(typeof(HTTPError), code))
+        {
+            Console.WriteLine("HTTP code {0} is: {1}", code, (HTTPError)code);
+        }
+        else
+        {
+            Console.WriteLine("Nope, that's not an HTTP code! At least not an official one...");
+        }
     }
 
     private enum HTTPError : short
