@@ -29,6 +29,8 @@ class Program
         var solver = new Solver();
         var userDisplay = new UserDisplay();
 
+
+        // PART A
         // Filter and write shapes with area in range [10,100] to a file
         var shapesWithAreaInRange = solver.FilterShapesByArea(shapes, 10, 100);
         userDisplay.WriteShapesToFile("ShapesWithAreaInRange.txt", shapesWithAreaInRange);
@@ -50,6 +52,9 @@ class Program
         userDisplay.DisplayShapes(shapes);
 
         Console.WriteLine("\nMany thanks for trying this program. Process terminated");
+
+
+        // PART B
 
     }
 }
