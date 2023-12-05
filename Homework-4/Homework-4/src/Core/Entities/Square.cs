@@ -3,25 +3,23 @@ namespace Homework_4.src.Core.Entities
 {
     public class Square : Shape
     {
-        // Field
-        private double side;
+        public double Side { get; private set; }
 
-        // Property
-        public double Side
+        // Constructor with name
+        public Square(string name, double side) : base(name)
         {
-            get { return side; }
-            set { side = value; }
+            Side = side;
         }
 
-        // Constructor
+        // Constructor without name (name is optional)
         public Square(double side) : base("Square")
         {
-            this.Side = side;
+            Side = side;
         }
 
         public override string ToString()
         {
-            return $"Square with side {Side}, Area: {Area()}, Perimeter: {Perimeter()}";
+            return $"Square (Name: {Name}, Side: {Side:F2}, Area: {Area():F2}, Perimeter: {Perimeter():F2})";
         }
 
         // Overridden Area method

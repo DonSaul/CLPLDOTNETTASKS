@@ -12,10 +12,16 @@
     <None Remove="src\" />
     <None Remove="src\Core\" />
     <None Remove="src\Core\Entities\" />
+    <None Remove="src\Core\Application\" />
+    <None Remove="src\Core\Application\Services\" />
+    <None Remove="src\Core\Presentation\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="src\" />
     <Folder Include="src\Core\" />
     <Folder Include="src\Core\Entities\" />
+    <Folder Include="src\Core\Application\" />
+    <Folder Include="src\Core\Application\Services\" />
+    <Folder Include="src\Core\Presentation\" />
   </ItemGroup>
 </Project>

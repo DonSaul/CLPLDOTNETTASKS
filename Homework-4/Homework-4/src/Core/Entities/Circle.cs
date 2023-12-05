@@ -13,27 +13,31 @@ namespace Homework_4.src.Core.Entities
             set { radius = value; }
         }
 
-        // Constructor
+        // Constructor with name
+        public Circle(string name, double radius) : base(name)
+        {
+            Radius = radius;
+        }
+
+        // Constructor without name (name is optional)
         public Circle(double radius) : base("Circle")
         {
-            this.Radius = radius;
+            Radius = radius;
         }
 
         public override string ToString()
         {
-            return $"Circle with radius {Radius}, Area: {Area()}, Perimeter: {Perimeter()}";
+            return $"Circle (Name: {Name}, Radius: {Radius.ToString("F2")}, Area: {Area().ToString("F2")}, Perimeter: {Perimeter().ToString("F2")})";
         }
-
         // Overridden Area method
         public override double Area()
         {
-            return Math.PI * Radius * Radius;
+            return Math.Round(Math.PI * Radius * Radius, 2);
         }
 
-        // Overridden Perimeter method
         public override double Perimeter()
         {
-            return 2 * Math.PI * Radius;
+            return Math.Round(2 * Math.PI * Radius, 2);
         }
     }
 }

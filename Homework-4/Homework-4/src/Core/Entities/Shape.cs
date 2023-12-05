@@ -3,31 +3,22 @@ namespace Homework_4.src.Core.Entities
 {
     public abstract class Shape
     {
-        // Field
-        private string name;
+        public string Name { get; protected set; }
 
-        // Property
-        public string Name
+        protected Shape(string name)
         {
-            get { return name; }
-            set { name = value; }
+            Name = name;
         }
 
-        // Constructor
-        public Shape(string name)
-        {
-            this.Name = name;
-        }
-        
+
+        public abstract double Area();
+        public abstract double Perimeter();
+
         public override string ToString()
         {
             return $"Shape: {Name}";
         }
-
-        // Abstract methods
-        public abstract double Area();
-
-        public abstract double Perimeter();
+        
     }
 }
 

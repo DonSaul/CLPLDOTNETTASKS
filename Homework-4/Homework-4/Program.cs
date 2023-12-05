@@ -1,4 +1,6 @@
-﻿using Homework_4.src.Core.Entities;
+﻿using Homework_4.src.Core.Application.Services;
+using Homework_4.src.Core.Entities;
+using Homework_4.src.Core.Presentation;
 
 using System;
 using System.Collections.Generic;
@@ -7,27 +9,47 @@ using System.Linq;
 
 class Program
 {
+
     static void Main(string[] args)
     {
         // 1) Create list of Shape
-        List<Shape> shapes = new List<Shape>
+        var shapes = new List<Shape>
         {
-            new Circle(2), 
-            new Square(3), 
+            new Circle("Custom Circle", 1),
+            new Circle(3),
+
+            new Square("Custom Square", 1),
+            new Square ("aBig Square",1),
+            new Square("a", 2),
+            new Square("Normal Square", 0.5),
+        
         };
 
-        // 2) Find shapes with area in range [10,100] and write to a file
-        var shapesWithAreaInRange = shapes.Where(s => s.Area() >= 10 && s.Area() <= 100).ToList();
-        File.WriteAllLines("ShapesWithAreaInRange.txt", shapesWithAreaInRange.Select(s => s.ToString()));
 
-        // 3) Find shapes with 'a' in their name and write to a file
-        var shapesWithNameContainingA = shapes.Where(s => s.Name.Contains('a')).ToList();
-        File.WriteAllLines("ShapesWithNameContainingA.txt", shapesWithNameContainingA.Select(s => s.ToString()));
+        var solver = new Solver();
+        var userDisplay = new UserDisplay();
 
-        // 4) Remove shapes with perimeter less than 5 and write the remaining list to the console
-        shapes.RemoveAll(s => s.Perimeter() < 5);
-        shapes.ForEach(s => Console.WriteLine(s.ToString()));
+        // Filter and write shapes with area in range [10,100] to a file
+        var shapesWithAreaInRange = solver.FilterShapesByArea(shapes, 10, 100);
+        userDisplay.WriteShapesToFile("ShapesWithAreaInRange.txt", shapesWithAreaInRange);
 
-        Console.WriteLine("Many thanks for trying this program. Process terminated");
+        // Filter and write shapes with 'a' in their name to a file
+        var shapesWithNameContainingA = solver.FilterShapesByName(shapes, "a");
+        userDisplay.WriteShapesToFile("ShapesWithNameContainingA.txt", shapesWithNameContainingA);
+
+        // Display original list
+        Console.WriteLine("\nOriginal List:");
+        userDisplay.DisplayShapes(shapes);
+
+        // Remove shapes with perimeter less than 5
+        Console.WriteLine("\nRemoving shapes with perimeter less than 5... Wait a moment please");
+        solver.RemoveShapesByPerimeter(ref shapes, 5);
+
+        // Display result
+        Console.WriteLine("\nResult:");
+        userDisplay.DisplayShapes(shapes);
+
+        Console.WriteLine("\nMany thanks for trying this program. Process terminated");
+
     }
 }
