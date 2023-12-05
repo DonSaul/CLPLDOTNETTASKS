@@ -1,0 +1,15 @@
+C:\Users\franc\OneDrive\Documents\CLPLDOTNETTASKS\homework4\exerciseB\obj\Debug\net8.0\exerciseB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\franc\OneDrive\Documents\CLPLDOTNETTASKS\homework4\exerciseB\obj\Debug\net8.0\exerciseB.AssemblyInfoInputs.cache
+C:\Users\franc\OneDrive\Documents\CLPLDOTNETTASKS\homework4\exerciseB\obj\Debug\net8.0\exerciseB.AssemblyInfo.cs
+C:\Users\franc\OneDrive\Documents\CLPLDOTNETTASKS\homework4\exerciseB\obj\Debug\net8.0\exerciseB.csproj.CoreCompileInputs.cache
+C:\Users\franc\OneDrive\Documents\CLPLDOTNETTASKS\homework4\exerciseB\obj\Debug\net8.0\exerciseB.sourcelink.json
+C:\Users\franc\OneDrive\Documents\CLPLDOTNETTASKS\homework4\exerciseB\bin\Debug\net8.0\exerciseB.exe
+C:\Users\franc\OneDrive\Documents\CLPLDOTNETTASKS\homework4\exerciseB\bin\Debug\net8.0\exerciseB.deps.json
+C:\Users\franc\OneDrive\Documents\CLPLDOTNETTASKS\homework4\exerciseB\bin\Debug\net8.0\exerciseB.runtimeconfig.json
+C:\Users\franc\OneDrive\Documents\CLPLDOTNETTASKS\homework4\exerciseB\bin\Debug\net8.0\exerciseB.dll
+C:\Users\franc\OneDrive\Documents\CLPLDOTNETTASKS\homework4\exerciseB\bin\Debug\net8.0\exerciseB.pdb
+C:\Users\franc\OneDrive\Documents\CLPLDOTNETTASKS\homework4\exerciseB\obj\Debug\net8.0\exerciseB.dll
+C:\Users\franc\OneDrive\Documents\CLPLDOTNETTASKS\homework4\exerciseB\obj\Debug\net8.0\refint\exerciseB.dll
+C:\Users\franc\OneDrive\Documents\CLPLDOTNETTASKS\homework4\exerciseB\obj\Debug\net8.0\exerciseB.pdb
+C:\Users\franc\OneDrive\Documents\CLPLDOTNETTASKS\homework4\exerciseB\obj\Debug\net8.0\exerciseB.genruntimeconfig.cache
+C:\Users\franc\OneDrive\Documents\CLPLDOTNETTASKS\homework4\exerciseB\obj\Debug\net8.0\ref\exerciseB.dll
