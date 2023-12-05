@@ -79,6 +79,17 @@ public class Program2
         }
     }
 
+    private struct Dog
+    {
+        public string name;
+        public string breed;
+        public sbyte age;
+        public override readonly string ToString()
+        {
+            return String.Format("{0}, a {1} year old {2}", name, age, breed);
+        }
+    }
+
     private enum HTTPError : short
     {
         Continue = 100,
