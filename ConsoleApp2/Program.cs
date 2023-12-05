@@ -91,7 +91,7 @@ public class Program2
         Console.WriteLine("Now, what breed is it?");
         Console.Write("> ");
         myDog.breed = Console.ReadLine();
-        Console.WriteLine("Type in the dog's name!");
+        Console.WriteLine("Type in the dog's age");
         Console.Write("> ");
         string? s = Console.ReadLine();
         bool rez = SByte.TryParse(s, out myDog.age);
