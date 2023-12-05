@@ -10,8 +10,12 @@
 
   <ItemGroup>
     <None Remove="src\" />
+    <None Remove="src\Core\" />
+    <None Remove="src\Core\Entities\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="src\" />
+    <Folder Include="src\Core\" />
+    <Folder Include="src\Core\Entities\" />
   </ItemGroup>
 </Project>
