@@ -124,6 +124,7 @@ class Homework2
     {
         //Homework2 
         //Part A: read 3 float numbers and check: are they all belong to the range [-5,5].
+        Console.WriteLine("Homework2 ");
         Console.WriteLine("Part A: Enter 3 float numbers:");
         Console.WriteLine("-----------------------------------------");
         
@@ -215,7 +216,7 @@ class Homework2
 
             //Check if the inputDogMark is valid:
             // - Ensure it is not null or has white spaces
-            isValidInputDogMark = (!string.IsNullOrWhiteSpace(inputDogMark));
+            isValidInputDogMark = (!string.IsNullOrWhiteSpace(inputDogMark) && inputDogMark.All(char.IsLetter));
 
             myDog.Mark = inputDogMark;
 
@@ -241,5 +242,9 @@ class Homework2
         Console.WriteLine("-----------------------------------------");
         Console.WriteLine(myDog.ToString());
         Console.WriteLine("-----------------------------------------");
+
+        Console.WriteLine("--------------------------");
+        Console.WriteLine("Program finished , press enter to close the terminal...");
+        Console.ReadLine();
     }
 }

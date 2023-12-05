@@ -4,7 +4,8 @@
     {
         //Homework1 
         //Part A
-
+        
+        Console.WriteLine("Homework1 ");
         int squareLength;
         bool isValidInputNumber;
 
@@ -95,5 +96,9 @@
         Console.WriteLine("The circle length is: " + circleLength);
         Console.WriteLine("The circle area is: " + circleArea);
         Console.WriteLine("The circle volume is: " + circleVolume);
+
+        Console.WriteLine("--------------------------");
+        Console.WriteLine("Program finished , press enter to close the terminal...");
+        Console.ReadLine();
     }
 }
