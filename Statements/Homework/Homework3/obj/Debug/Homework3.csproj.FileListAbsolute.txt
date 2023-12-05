@@ -1,0 +1,7 @@
+D:\Study\SoftServe\CLPLDOTNETTASKS\Statements\Homework\Homework3\bin\Debug\Homework3.exe.config
+D:\Study\SoftServe\CLPLDOTNETTASKS\Statements\Homework\Homework3\bin\Debug\Homework3.exe
+D:\Study\SoftServe\CLPLDOTNETTASKS\Statements\Homework\Homework3\bin\Debug\Homework3.pdb
+D:\Study\SoftServe\CLPLDOTNETTASKS\Statements\Homework\Homework3\obj\Debug\Homework3.csproj.AssemblyReference.cache
+D:\Study\SoftServe\CLPLDOTNETTASKS\Statements\Homework\Homework3\obj\Debug\Homework3.csproj.CoreCompileInputs.cache
+D:\Study\SoftServe\CLPLDOTNETTASKS\Statements\Homework\Homework3\obj\Debug\Homework3.exe
+D:\Study\SoftServe\CLPLDOTNETTASKS\Statements\Homework\Homework3\obj\Debug\Homework3.pdb
