@@ -10,6 +10,8 @@ public class Program2
         CheckMaxMinInts();
         Console.WriteLine("3) Http error code");
         CheckHttpErrorCode();
+        Console.WriteLine("4) Create dog out of struct");
+        CreateDogStruct();
     }
 
     private static void CheckForFloatsInRange()
@@ -77,6 +79,27 @@ public class Program2
         {
             Console.WriteLine("Nope, that's not an HTTP code! At least not an official one...");
         }
+    }
+
+    private static void CreateDogStruct()
+    {
+        Dog myDog;
+        Console.WriteLine("Type in the dog's name!");
+        Console.Write("> ");
+        myDog.name = Console.ReadLine();
+        Console.WriteLine("Now, what breed is it?");
+        Console.Write("> ");
+        myDog.breed = Console.ReadLine();
+        Console.WriteLine("Type in the dog's name!");
+        Console.Write("> ");
+        string? s = Console.ReadLine();
+        bool rez = SByte.TryParse(s, out myDog.age);
+        if (!rez)
+        {
+            Console.WriteLine("Sorry, that's not even a number! (or it's FAR too large)");
+            return;
+        }
+        Console.WriteLine("Hey, look! It's {0}!", myDog);
     }
 
     private struct Dog
