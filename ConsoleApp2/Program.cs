@@ -64,6 +64,7 @@ public class Program2
     private static void CheckHttpErrorCode()
     {
         Console.WriteLine("Please, type in a small integer to see if it's a n HTTP code:");
+        Console.Write("> ");
         string? s = Console.ReadLine();
         bool rez = Int16.TryParse(s, out short code);
         if (!rez)
