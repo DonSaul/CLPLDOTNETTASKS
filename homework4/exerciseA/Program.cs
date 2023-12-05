@@ -39,7 +39,7 @@ class Program
         //** 4.2) Imprimimos la lista resultante en la consola.
         foreach (var shape in shapes)
         {
-            Console.WriteLine(shape.Name + " " + shape.Area);
+            Console.WriteLine(shape.Name + " " + shape.Area + " " + shape.Perimeter);
         }
     }
 }
