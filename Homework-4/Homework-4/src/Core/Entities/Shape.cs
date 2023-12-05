@@ -18,6 +18,11 @@ namespace Homework_4.src.Core.Entities
         {
             this.Name = name;
         }
+        
+        public override string ToString()
+        {
+            return $"Shape: {Name}";
+        }
 
         // Abstract methods
         public abstract double Area();

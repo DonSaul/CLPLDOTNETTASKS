@@ -19,6 +19,11 @@ namespace Homework_4.src.Core.Entities
             this.Radius = radius;
         }
 
+        public override string ToString()
+        {
+            return $"Circle with radius {Radius}, Area: {Area()}, Perimeter: {Perimeter()}";
+        }
+
         // Overridden Area method
         public override double Area()
         {

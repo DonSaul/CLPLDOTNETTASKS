@@ -19,11 +19,17 @@ namespace Homework_4.src.Core.Entities
             this.Side = side;
         }
 
+        public override string ToString()
+        {
+            return $"Square with side {Side}, Area: {Area()}, Perimeter: {Perimeter()}";
+        }
+
         // Overridden Area method
         public override double Area()
         {
             return Side * Side;
         }
+
 
         // Overridden Perimeter method
         public override double Perimeter()
