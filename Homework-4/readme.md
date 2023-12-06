@@ -21,7 +21,7 @@ This C# program is designed to read a text file and perform various analyses on 
 An example of the program's output is provided in the file `example-prompt.png` located in the same directory as this README.
 
 ## Classes
-![Example prompt](H4-partB/H4-partB/Example-prompt.png "Example prompt")
+![Example prompt](H4-partB/H4-partB/example-prompt.png "Example prompt")
 
 
 Note: The program's output includes a line-by-line analysis of the text file, displaying the total number of characters in each line, as well as highlighting the longest and shortest lines and lines containing the word "var".
