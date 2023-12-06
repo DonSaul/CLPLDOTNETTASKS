@@ -1,5 +1,5 @@
 
-# Homework 4 - Text File Analysis
+# Homework 4 Part B - Text File Analysis
 
 ## Overview
 This C# program is designed to read a text file and perform various analyses on its contents. It reads all lines from a specified text file into an array of strings, where each array item represents one line from the file. The program then performs the following tasks:
