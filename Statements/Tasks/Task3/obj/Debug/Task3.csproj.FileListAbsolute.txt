@@ -1,0 +1,7 @@
+D:\Study\SoftServe\CLPLDOTNETTASKS\Statements\Tasks\Task3\bin\Debug\Task3.exe.config
+D:\Study\SoftServe\CLPLDOTNETTASKS\Statements\Tasks\Task3\bin\Debug\Task3.exe
+D:\Study\SoftServe\CLPLDOTNETTASKS\Statements\Tasks\Task3\bin\Debug\Task3.pdb
+D:\Study\SoftServe\CLPLDOTNETTASKS\Statements\Tasks\Task3\obj\Debug\Task3.csproj.AssemblyReference.cache
+D:\Study\SoftServe\CLPLDOTNETTASKS\Statements\Tasks\Task3\obj\Debug\Task3.csproj.CoreCompileInputs.cache
+D:\Study\SoftServe\CLPLDOTNETTASKS\Statements\Tasks\Task3\obj\Debug\Task3.exe
+D:\Study\SoftServe\CLPLDOTNETTASKS\Statements\Tasks\Task3\obj\Debug\Task3.pdb
