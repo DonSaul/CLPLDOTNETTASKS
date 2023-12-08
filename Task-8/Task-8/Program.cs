@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
+
 class Program
 {
     static void Main(string[] args)
@@ -16,65 +17,43 @@ class Program
             // Add other Person, Staff, Teacher, Developer objects as needed
         };
 
-        // Print all people
+        // Print all people with improved formatting
+        Console.WriteLine("List of People:\n");
         foreach (var person in people)
         {
             person.Print();
+            Console.WriteLine(); // Adds a newline for better separation
         }
 
-        // Search and print person by name
+        // Search and print person by name with improved formatting
+        Console.WriteLine("----------------------------");
         Console.Write("Enter the person's name: ");
         string inputName = Console.ReadLine();
-        SearchAndPrintPersonByName(people, inputName);
-
-        // Sort people by name and write to file
-        string peopleFilePath = "sorted_people.txt";
-        SortPeopleByNameAndWriteToFile(people, peopleFilePath);
-
-        // Sort employees by salary and write to file
-        string employeeFilePath = "sorted_employees.txt";
-        SortEmployeesBySalaryAndWriteToFile(people, employeeFilePath);
-    }
-
-    public static void SearchAndPrintPersonByName(List<Person> people, string name)
-    {
-        var foundPerson = people.FirstOrDefault(p => p.Name.Equals(name, StringComparison.OrdinalIgnoreCase));
+        Console.WriteLine();
+        
+        var foundPerson = PersonService.SearchAndPrintPersonByName(people, inputName);
         if (foundPerson != null)
         {
+            Console.WriteLine($"Details for '{inputName}':\n");
             foundPerson.Print();
         }
         else
         {
-            Console.WriteLine("Person not found.");
+            Console.WriteLine($"No details found for '{inputName}'.");
         }
+        
+        Console.WriteLine("\n----------------------------");
+
+        // Sort people by name and write to file with improved formatting
+        string peopleFilePath = "sorted_people.txt";
+        PersonService.SortPeopleByNameAndWriteToFile(people, peopleFilePath);
+        Console.WriteLine($"Sorted list written to {peopleFilePath}.\n");
+
+        // Sort employees by salary and write to file with improved formatting
+        string employeeFilePath = "sorted_employees.txt";
+        PersonService.SortEmployeesBySalaryAndWriteToFile(people, employeeFilePath);
+        Console.WriteLine($"Sorted employees list written to {employeeFilePath}.\n");
     }
-
-    public static void SortPeopleByNameAndWriteToFile(List<Person> people, string filePath)
-    {
-        var sortedPeople = people.OrderBy(p => p.Name).ToList();
-
-        using (StreamWriter file = new StreamWriter(filePath))
-        {
-            foreach (var person in sortedPeople)
-            {
-                file.WriteLine($"Name: {person.Name}");
-            }
-        }
-        Console.WriteLine($"Sorted list written to {filePath}.");
-    }
-
-  public static void SortEmployeesBySalaryAndWriteToFile(List<Person> people, string filePath)
-{
-    var employees = people.OfType<Staff>().ToList();
-    var sortedEmployees = employees.OrderBy(e => e.Salary).ToList(); // Use the public property here
-
-    using (StreamWriter file = new StreamWriter(filePath))
-    {
-        foreach (var employee in sortedEmployees)
-        {
-            file.WriteLine($"Name: {employee.Name}, Salary: ${employee.Salary}");
-        }
-    }
-    Console.WriteLine($"Sorted employees list written to {filePath}.");
 }
-}
+
+

@@ -10,6 +10,7 @@ public class Teacher : Staff
     public override void Print()
     {
         base.Print();
+        Console.WriteLine("Role: Teacher");
         Console.WriteLine($"Subject: {subject}");
     }
 }

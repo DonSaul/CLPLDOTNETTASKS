@@ -10,6 +10,7 @@ public class Developer : Staff
     public override void Print()
     {
         base.Print();
+        Console.WriteLine("Role: Developer");
         Console.WriteLine($"Level: {level}");
     }
 }
