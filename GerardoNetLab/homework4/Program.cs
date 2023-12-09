@@ -27,7 +27,7 @@ foreach (var shape in shapes)
 }
 
 
-Console.WriteLine("Sgundo hello world");
+Console.WriteLine("Segunda parte");
 string filePath = "Program.cs";
 
 // Read all lines from the file into an array of strings
