@@ -5,20 +5,19 @@ using System.Linq;
 
 public class PersonService
 {
-    public static Person SearchAndPrintPersonByName(List<Person> people, string name)
+    public static Person SearchAndPrintPersonByName(List<Person> people, string searchQuery)
     {
-        var foundPerson = people.FirstOrDefault(p => p.Name.Equals(name, StringComparison.OrdinalIgnoreCase));
-        if (foundPerson != null)
+        Person foundPerson = people.FirstOrDefault(p =>
         {
-            Console.WriteLine($"Details for '{name}':\n");
-            foundPerson.Print();
-        }
-        else
-        {
-            Console.WriteLine($"No details found for '{name}'.");
-        }
+            string fullName = (p is Staff) ?  (searchQuery + " Staff") : searchQuery;
+            return fullName.Equals(p.Name, StringComparison.OrdinalIgnoreCase);
+        });
+
+     
         return foundPerson;
     }
+
+
 
     public static void SortPeopleByNameAndWriteToFile(List<Person> people, string filePath)
     {
