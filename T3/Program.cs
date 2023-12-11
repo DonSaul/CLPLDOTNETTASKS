@@ -41,7 +41,7 @@ class Program
     {
         Console.WriteLine("Please input any string of characters that you wish:");
         Console.Write("> ");
-        string s = Console.ReadLine();
+        string s = Console.ReadLine() ?? "";
 
         Console.WriteLine(!string.IsNullOrWhiteSpace(s)
             ? "Well, the second characters for that string are:"
