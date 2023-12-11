@@ -8,15 +8,6 @@ public static class ShapeService
         return shapes.OrderByDescending(s => s.Perimeter()).FirstOrDefault();
     }
 
-    public static void PrintShapeWithLargestPerimeter(List<Shape> shapes)
-    {
-        var shapeWithLargestPerimeter = FindShapeWithLargestPerimeter(shapes);
-        if (shapeWithLargestPerimeter != null)
-            Console.WriteLine($"\nShape with the largest perimeter: {shapeWithLargestPerimeter.Name} ({shapeWithLargestPerimeter.Perimeter():F2})");
-        else
-            Console.WriteLine("No shapes to display.");
-    }
-
     public static List<Shape> SortShapesByArea(List<Shape> shapes)
     {
       

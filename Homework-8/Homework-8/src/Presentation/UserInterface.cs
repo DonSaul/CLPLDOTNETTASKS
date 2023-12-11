@@ -8,7 +8,7 @@ public static class UserInterface
     {
         List<Shape> shapes = new List<Shape>();
         Console.WriteLine("Enter each shape in the format 'ShapeType Dimension'.");
-        Console.WriteLine("Examples: 'Square 124.2'.");
+        Console.WriteLine("Example: 'Square 124.2'.");
         Console.WriteLine("Type 'done' to finish.");
 
 
