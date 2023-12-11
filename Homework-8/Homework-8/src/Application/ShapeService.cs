@@ -12,12 +12,12 @@ public static class ShapeService
     {
         var shapeWithLargestPerimeter = FindShapeWithLargestPerimeter(shapes);
         if (shapeWithLargestPerimeter != null)
-            Console.WriteLine($"Shape with the largest perimeter: {shapeWithLargestPerimeter.Name} ({shapeWithLargestPerimeter.Perimeter():F2})");
+            Console.WriteLine($"\nShape with the largest perimeter: {shapeWithLargestPerimeter.Name} ({shapeWithLargestPerimeter.Perimeter():F2})");
         else
             Console.WriteLine("No shapes to display.");
     }
 
-    public static List<ShapeService> SortShapesByArea(List<Shape> shapes)
+    public static List<Shape> SortShapesByArea(List<Shape> shapes)
     {
       
         shapes.Sort();

@@ -16,7 +16,7 @@ class Program
         List<Shape> sortedShapes = ShapeService.SortShapesByArea(shapes);
 
         // Display the sorted list of shapes
-        Console.WriteLine("Shapes sorted by area:");
+        Console.WriteLine("\nShapes sorted by area:");
         UserInterface.DisplayShapes(sortedShapes);
     }
 }

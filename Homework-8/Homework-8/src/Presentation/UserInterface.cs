@@ -50,11 +50,26 @@ public static class UserInterface
         }
         Console.WriteLine("---------------------------------------------------------------------------------------------------");
     }
-    private static string DisplayShape(int index, Shape shape)
+   private static string DisplayShape(int index, Shape shape)
     {
         string type = shape.GetType().Name;
-        string name = shape.Name.Length > 15 ? shape.Name.Substring(0, 12) + "..." : shape.Name;
-        string dimension = type == "Circle" ? $"Radius: {((Circle)shape).Radius:F2}" : $"Side: {((Square)shape).Side:F2}";
-        return $"{index}. {type,-10} | {dimension,-22} | {shape.Area(),-16} | {shape.Perimeter(),-10}";
+        string dimension = GetDimensionString(shape);
+        string area = $"{shape.Area():N2}"; // N2 for number formatting with commas and 2 decimal places
+        string perimeter = $"{shape.Perimeter():N2}";
+
+        return $"{index}. {type,-10} | {dimension,-20} | {area,-20} | {perimeter,-15}";
+    }
+
+    private static string GetDimensionString(Shape shape)
+    {
+        switch (shape)
+        {
+            case Circle c:
+                return $"Radius: {c.Radius:N2}";
+            case Square s:
+                return $"Side: {s.Side:N2}";
+            default:
+                return "N/A";
+        }
     }
 }

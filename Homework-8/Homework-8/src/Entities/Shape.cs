@@ -1,5 +1,5 @@
 ﻿
-public abstract class Shape
+public abstract class Shape : IComparable<Shape>
 {
     public string Name { get; protected set; }
 
