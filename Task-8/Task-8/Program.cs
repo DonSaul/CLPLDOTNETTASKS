@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-
 
 class Program
 {
@@ -31,7 +28,7 @@ class Program
         string inputName = Console.ReadLine();
         Console.WriteLine();
         
-        var foundPerson = PersonService.SearchAndPrintPersonByName(people, inputName);
+        var foundPerson = PersonSearchService.SearchByName(people, inputName);
         if (foundPerson != null)
         {
             Console.WriteLine($"Details for '{inputName}':\n");
@@ -46,14 +43,12 @@ class Program
 
         // Sort people by name and write to file with improved formatting
         string peopleFilePath = "sorted_people.txt";
-        PersonService.SortPeopleByNameAndWriteToFile(people, peopleFilePath);
-        Console.WriteLine($"Sorted list written to {peopleFilePath}.\n");
+        var sortedPeople = PersonSortService.SortPeopleByName(people);
+        PersonFileService.WritePeopleToFile(sortedPeople, peopleFilePath);
 
         // Sort employees by salary and write to file with improved formatting
         string employeeFilePath = "sorted_employees.txt";
-        PersonService.SortEmployeesBySalaryAndWriteToFile(people, employeeFilePath);
-        Console.WriteLine($"Sorted employees list written to {employeeFilePath}.\n");
+        var sortedEmployees = PersonSortService.SortEmployeesBySalary(people);
+        PersonFileService.WriteEmployeesToFile(sortedEmployees, employeeFilePath);
     }
 }
-
-

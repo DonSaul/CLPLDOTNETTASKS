@@ -56,4 +56,6 @@ Sorted employees list written to sorted_employees.txt.
 - **Sorted People List**: This file (`sorted_people.txt`) will be generated in the project's root directory and contains a sorted list of all people by their name.
 - **Sorted Employee List**: This file (`sorted_employees.txt`) will be generated in the same location and contains a sorted list of staff members by their salary.
 
-## User Prompt Example
+## Class Diagram
+![Class Diagram](Task-8-Class-Diagram.png "Class Diagram")
+
