@@ -55,3 +55,16 @@ List written to sorted_employees.txt.
 ## Class Diagram
 ![Class Diagram](Task-8-Class-Diagram.png "Class Diagram")
 
+This class diagram represents the structure for the Personnel Management. It details the classes and relationships that make up the system.
+
+## Classes and Inheritance
+- The `Person` class is the foundation, with their properties and methods like `name` and `Print()`.
+- Subclasses `Staff`, `Teacher`, and `Developer` extend `Person`, adding specific attributes such as `salary`, `subject`, and `level`, respectively, to accommodate different employee types.
+
+## Services
+- `PersonSearchService` focuses on searching functionalities, allowing users to find persons by name.
+- `PersonSortService` sorts collections of `Person` and `Staff` instances by name and salary.
+- `PersonFileService` handles writing sorted person information to files, encapsulating file I/O operations.
+
+## Program Flow
+- The `Program` class acts as the application's entry point, coordinating the execution flow and utilizing service classes.
