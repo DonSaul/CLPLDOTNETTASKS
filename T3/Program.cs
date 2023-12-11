@@ -7,6 +7,22 @@ class Program
         Console.WriteLine("1) The range of 2 ints");
         TwoIntegerRange();
         Console.WriteLine("2) Every other char in string");
+        SecondCharsInString();
+    }
+
+    private static void SecondCharsInString()
+    {
+        Console.WriteLine("Please input any string of characters that you wish:");
+        Console.Write("> ");
+        string s = Console.ReadLine();
+
+        Console.WriteLine(!string.IsNullOrWhiteSpace(s)
+            ? "Well, the second characters for that string are:"
+            : "Well, that's just an empty string");
+        for (int i = 1; i < s.Length; i+=2)
+        {
+            Console.WriteLine(s[i]);
+        }
     }
 
     private static void TwoIntegerRange()
