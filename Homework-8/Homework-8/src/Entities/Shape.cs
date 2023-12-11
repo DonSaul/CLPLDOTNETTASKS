@@ -7,6 +7,12 @@ public abstract class Shape
     {
         Name = name;
     }
+     public int CompareTo(Shape other)
+    {
+        if (other == null) return 1;
+
+        return Area().CompareTo(other.Area());
+    }
     public abstract double Area();
     public abstract double Perimeter();
 
