@@ -1,6 +1,12 @@
 ﻿public class Square : Shape
 {
-    public double Side { get; private set; }
+    private double side;
+
+    public double Side
+    {
+        get { return side; }
+        set { side = value; }
+    }
 
     // Constructor with name
     public Square(string name, double side) : base(name)
