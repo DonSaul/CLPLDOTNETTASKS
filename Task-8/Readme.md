@@ -21,7 +21,6 @@ The application will prompt you to enter the name of a person to search for. Sim
 
 ```csharp
 
-
 Name: Alice
 
 Person Bob has salary: $50000
@@ -44,11 +43,8 @@ Role: Teacher
 Subject: Mathematics
 
 ----------------------------
-Sorted list written to sorted_people.txt.
-Sorted list written to sorted_people.txt.
-
-Sorted employees list written to sorted_employees.txt.
-Sorted employees list written to sorted_employees.txt.
+List written to sorted_people.txt.
+List written to sorted_employees.txt.
 
 ```
 
