@@ -1,5 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using System.Runtime.InteropServices;
+
 class Program
 {
     static void Main(string[] args)
@@ -14,6 +16,40 @@ class Program
         IntAverage();
         Console.WriteLine("5) Check for leap year");
         LeapYearCheck();
+        Console.WriteLine("6) Sum of integer digits");
+        IntDigitSum();
+    }
+
+    private static void IntDigitSum()
+    {
+        Console.WriteLine("Please input an integer number:");
+        Console.Write("> ");
+        string s = Console.ReadLine() ?? "";
+        bool rez = long.TryParse(s, out _);
+
+        if (!rez)
+        {
+            Console.WriteLine("That's not an integer! Or, it's too large, are you OK?");
+            return;
+        }
+        if (s.Trim().Length == 0)
+        {
+            Console.WriteLine("Cool, you entered... nothing. Cool.");
+            return;
+        }
+
+        if (s[0] == '-')
+        {
+            s = s[1..];
+        }
+
+        int total = 0;
+        foreach (char c in s)
+        {
+            total += (int) char.GetNumericValue(c);
+        }
+
+        Console.WriteLine("Right, the digits in {0} sum to: {1}", s, total);
     }
 
     private static void LeapYearCheck()
