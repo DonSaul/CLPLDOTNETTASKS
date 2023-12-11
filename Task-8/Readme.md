@@ -1,4 +1,4 @@
-﻿# Project Title
+﻿# Task 8
 
 ## Purpose of the Project
 This project is designed to demonstrate object-oriented programming principles in C#. It implements a basic system for managing and interacting with different types of persons, including general individuals (`Person`), staff members (`Staff`), and specific roles like `Teacher` and `Developer`. The project showcases inheritance, polymorphism, encapsulation, and the use of collections in C#.
