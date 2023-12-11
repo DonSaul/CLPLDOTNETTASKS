@@ -8,6 +8,33 @@ class Program
         TwoIntegerRange();
         Console.WriteLine("2) Every other char in string");
         SecondCharsInString();
+        Console.WriteLine("3) Get the price of a drink");
+        GetDrinkPrice();
+    }
+
+    private static void GetDrinkPrice()
+    {
+        Dictionary<string, ushort> priceDict = new()
+        {
+            { "cofee", 2500 },
+            { "tea", 1500 },
+            { "juice", 2700 },
+            { "water", 800 },
+        };
+
+        Console.WriteLine("Please input the name of the drink you wish to consult:");
+        Console.Write("(cofee, tea, juice, water) > ");
+        string s = Console.ReadLine() ?? "";
+        s = s.Trim().ToLower();
+
+        if (priceDict.TryGetValue(s, out ushort value))
+        {
+            Console.WriteLine("So, the price for {0} is: {1:C}", s, value);
+        }
+        else
+        {
+            Console.WriteLine("Uh... we don't have that drink (Did you type it right?)");
+        }
     }
 
     private static void SecondCharsInString()
