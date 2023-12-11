@@ -18,7 +18,7 @@ class Program
 
     private static void LeapYearCheck()
     {
-        Console.WriteLine("Please input 2 integer numbers:");
+        Console.WriteLine("Please input a possible year number:");
         Console.Write("> ");
         string? s = Console.ReadLine();
         bool rez = Int32.TryParse(s, out int year);
