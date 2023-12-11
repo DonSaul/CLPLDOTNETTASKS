@@ -10,8 +10,9 @@ class Program
         UserInterface.DisplayShapes(shapes);
 
         // Print the shape with the largest perimeter
-        ShapeService.PrintShapeWithLargestPerimeter(shapes);
-
+        Shape largestShape = ShapeService.FindShapeWithLargestPerimeter(shapes);
+        Console.WriteLine($"\nShape with the largest perimeter: {largestShape.Name} (perimeter: {largestShape.Perimeter():N2})");
+        
         // Sort the shapes by area and get the sorted list
         List<Shape> sortedShapes = ShapeService.SortShapesByArea(shapes);
 
