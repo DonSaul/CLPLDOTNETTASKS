@@ -53,8 +53,6 @@ Result:
 --------------------------------------------------------------------------
 
 Many thanks for trying this program. Process terminated
-
-Many thanks for trying this program. Process terminated
 ```
 
 ## Class Diagram Explanation
