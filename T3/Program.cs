@@ -18,6 +18,27 @@ class Program
         LeapYearCheck();
         Console.WriteLine("6) Sum of integer digits");
         IntDigitSum();
+        Console.WriteLine("7) Check for integer of odd digits");
+        OddDigitIntCheck();
+    }
+
+    private static void OddDigitIntCheck()
+    {
+        string s = GetIntStringFromInput();
+        if (s.Trim().Length == 0)
+        {
+            return;
+        }
+
+        foreach (char c in s)
+        {
+            if (char.GetNumericValue(c) % 2 == 0)
+            {
+                Console.WriteLine("NOPE! This number contains at least an even digit.");
+                return;
+            }
+        }
+        Console.WriteLine("YUP! This number contains only odd digits!");
     }
 
     private static void IntDigitSum()
