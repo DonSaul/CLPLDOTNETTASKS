@@ -12,6 +12,25 @@ class Program
         GetDrinkPrice();
         Console.WriteLine("4) The average of integers");
         IntAverage();
+        Console.WriteLine("5) Check for leap year");
+        LeapYearCheck();
+    }
+
+    private static void LeapYearCheck()
+    {
+        Console.WriteLine("Please input 2 integer numbers:");
+        Console.Write("> ");
+        string? s = Console.ReadLine();
+        bool rez = Int32.TryParse(s, out int year);
+
+        if (!rez)
+        {
+            Console.WriteLine("Well, can't be a year number!");
+            return;
+        }
+
+        string result = (year % 4 == 0) ? "INDEED" : "NOT";
+        Console.WriteLine("{0} is {1} a leap year", year, result);
     }
 
     private static void IntAverage()
