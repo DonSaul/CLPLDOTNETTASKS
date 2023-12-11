@@ -55,7 +55,7 @@ List of Shapes:
 ```
 
 ## Class Diagram 
-
+![Class Diagram](Homework-8-Class-Diagram.png "Class Diagram")
 
 The class diagram visualizes the structure of our object-oriented design. It includes:
 - `Program`: The main entry point for the application.
