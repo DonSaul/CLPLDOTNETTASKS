@@ -1,13 +1,12 @@
-﻿public abstract class Shape
+﻿
+public abstract class Shape
 {
-     private string name;
+    public string Name { get; protected set; }
 
-    public double Name
+    protected Shape(string name)
     {
-        get { return name; }
-        set { name = value; }
+        Name = name;
     }
-
     public abstract double Area();
     public abstract double Perimeter();
 

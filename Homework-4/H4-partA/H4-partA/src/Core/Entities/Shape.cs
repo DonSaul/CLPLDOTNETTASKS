@@ -9,8 +9,6 @@ namespace Homework_4.src.Core.Entities
         {
             Name = name;
         }
-
-
         public abstract double Area();
         public abstract double Perimeter();
 

@@ -3,7 +3,10 @@ public static class UserInterface
     public static List<Shape> GetShapesFromUser()
     {
         List<Shape> shapes = new List<Shape>();
-        Console.WriteLine("Enter shapes in the format: 'ShapeType Name Dimension'. For example, 'Circle LittleCircle 1.5' or 'ShapeType Dimension', for example: 'Square 124.2'. Type 'done' to finish.");
+        Console.WriteLine("Enter each shape in the format 'ShapeType [Optional: Name] Dimension'.");
+        Console.WriteLine("Examples: 'Circle MyCircle 1.5' or 'Square 124.2'.");
+        Console.WriteLine("Type 'done' to finish.");
+
 
         while (true)
         {
