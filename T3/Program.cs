@@ -10,6 +10,36 @@ class Program
         SecondCharsInString();
         Console.WriteLine("3) Get the price of a drink");
         GetDrinkPrice();
+        Console.WriteLine("4) The average of integers");
+        IntAverage();
+    }
+
+    private static void IntAverage()
+    {
+        ulong qty;
+        int val = 0, total = 0;
+
+        Console.WriteLine("Enter, separately, any number of integers you desire:");
+        Console.WriteLine("(Enter a negative value to end)");
+
+        for (qty = 0; val >= 0; qty++)
+        {
+            Console.Write("> ");
+            string? s = Console.ReadLine();
+            bool rez = Int32.TryParse(s, out val);
+            if (rez)
+            {
+                total += val;
+            }
+            else
+            {
+                Console.WriteLine("That's not an integer! (Or it's WAY out of range");
+                qty--;
+            }
+        }
+        Console.WriteLine("There, integer sequence ended!");
+        float mean = (float) total / (float) qty;
+        Console.WriteLine("The average of all the integers entered is {0:F3}", mean);
     }
 
     private static void GetDrinkPrice()
