@@ -1,4 +1,4 @@
-#Homework 2: C# Console Application: Various Tasks
+# Homework 2: C# Console Application: Various Tasks
 
 This C# Console Application is a comprehensive project that demonstrates basic C# concepts and functionalities. It includes several tasks like handling floating-point and integer inputs, working with enums and structs, and implementing utility functions.
 
