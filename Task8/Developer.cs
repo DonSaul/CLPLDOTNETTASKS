@@ -7,7 +7,7 @@
         {
             this.level = level;
         }
-        public override string Name { get { return string.Format("{0} {1} developer", base.Name, this.level); } }
+        public override string Name { get { return string.Format("{0}; {1} developer", base.Name, this.level); } }
         public override void Print()
         {
             Console.WriteLine(Name);
