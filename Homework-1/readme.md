@@ -11,6 +11,10 @@ This C# program performs various calculations related to squares and circles. It
 - **Error Handling:** Gracefully handles unexpected inputs or errors during execution.
 - **Precision Control:** Results are rounded to two decimal places for better readability.
 
+A notable feature enhancing its user-friendliness:
+
+- **User-Friendly Guidance System:** Features an intuitive guidance system that assists users through each step with clear instructions and feedback. This ensures an accessible and smooth experience for all users, regardless of their familiarity with geometric concepts or console applications.
+
 ## Requirements
 - .NET Framework or .NET Core
 - A compatible C# compiler
@@ -28,6 +32,9 @@ This C# program performs various calculations related to squares and circles. It
    - Enter your name and age when prompted. 
 3. **Circle Calculations:**
    - Enter the radius of a circle when prompted.
+4. **Intuitive User Interface:** 
+    Designed with a focus on user-centric interaction, making it engaging and straightforward for users of all technical backgrounds.
+
 
 ## Example prompt
 ```
