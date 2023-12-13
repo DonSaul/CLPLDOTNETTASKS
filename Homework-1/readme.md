@@ -1,4 +1,4 @@
-# Square and Circle Calculator
+# Homework 1: Geometric Calculation and User Interaction
 
 ## Overview
 This C# program performs various calculations related to squares and circles. It is designed to:
@@ -31,6 +31,7 @@ This C# program performs various calculations related to squares and circles. It
 
 ## Example prompt
 ```
+Task 1: Square Calculations
 ----------------------------
 Enter the side length of the square(e.g., 15.6):
 400
@@ -60,5 +61,3 @@ All calculations complete!
 Many thanks for trying this program! Have a good day! Process Terminated.
 
 ```
-## License
-- This project is open-source and free to use.
