@@ -62,15 +62,19 @@ class Program
     static void Main(string[] args)
     {
         Console.WriteLine("Task #1:");
+        Console.WriteLine("----------------------------");
         CheckFloatRange();
 
         Console.WriteLine("Task #2:");
+        Console.WriteLine("----------------------------");
         FindMaxMinIntegers();
 
         Console.WriteLine("Task #3:");
+        Console.WriteLine("----------------------------");
         DisplayHttpError();
 
         Console.WriteLine("Task #4:");
+        Console.WriteLine("----------------------------");
         CreateAndDisplayDog();
 
         Console.WriteLine("\nMany thanks for trying this program! Have a good day! Process Terminated.");
