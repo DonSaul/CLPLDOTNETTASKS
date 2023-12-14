@@ -24,9 +24,23 @@ class Program
         Console.Write("> ");
         string s = Console.ReadLine() ?? "";
         
+        bool found = false;
         foreach (Person person in people)
         {
-            string name = person.Name;
+            string name = person.Name.Split(' ')[0];
+            if (name.Equals(s, StringComparison.CurrentCultureIgnoreCase))
+            {
+                found = true;
+                break;
+            }
+        }
+        if (found)
+        {
+            Console.WriteLine("Yes! We have that person on the list!");
+        }
+        else
+        {
+            Console.WriteLine("Ehhh... That person is not on the list.");
         }
     }
 }
