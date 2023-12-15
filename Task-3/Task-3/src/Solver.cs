@@ -46,14 +46,13 @@ namespace Task_3.src
         }
 
         // 4. Calculate the arithmetic average of a sequence of positive integers
-        public double CalculateAverage(List<int> numbers)
+        public double CalculateIntegersAverage(List<int> numbers)
         {
             if (numbers == null || numbers.Count == 0) return 0;
 
             int sum = 0;
             foreach (int number in numbers)
             {
-                if (number < 0) break;
                 sum += number;
             }
 
