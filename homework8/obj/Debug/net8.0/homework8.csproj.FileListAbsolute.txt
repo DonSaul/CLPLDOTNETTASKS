@@ -1,0 +1,15 @@
+C:\Users\franc\OneDrive\Documents\CLPLDOTNETTASKS\homework8\bin\Debug\net8.0\homework8.exe
+C:\Users\franc\OneDrive\Documents\CLPLDOTNETTASKS\homework8\bin\Debug\net8.0\homework8.deps.json
+C:\Users\franc\OneDrive\Documents\CLPLDOTNETTASKS\homework8\bin\Debug\net8.0\homework8.runtimeconfig.json
+C:\Users\franc\OneDrive\Documents\CLPLDOTNETTASKS\homework8\bin\Debug\net8.0\homework8.dll
+C:\Users\franc\OneDrive\Documents\CLPLDOTNETTASKS\homework8\bin\Debug\net8.0\homework8.pdb
+C:\Users\franc\OneDrive\Documents\CLPLDOTNETTASKS\homework8\obj\Debug\net8.0\homework8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\franc\OneDrive\Documents\CLPLDOTNETTASKS\homework8\obj\Debug\net8.0\homework8.AssemblyInfoInputs.cache
+C:\Users\franc\OneDrive\Documents\CLPLDOTNETTASKS\homework8\obj\Debug\net8.0\homework8.AssemblyInfo.cs
+C:\Users\franc\OneDrive\Documents\CLPLDOTNETTASKS\homework8\obj\Debug\net8.0\homework8.csproj.CoreCompileInputs.cache
+C:\Users\franc\OneDrive\Documents\CLPLDOTNETTASKS\homework8\obj\Debug\net8.0\homework8.sourcelink.json
+C:\Users\franc\OneDrive\Documents\CLPLDOTNETTASKS\homework8\obj\Debug\net8.0\homework8.dll
+C:\Users\franc\OneDrive\Documents\CLPLDOTNETTASKS\homework8\obj\Debug\net8.0\refint\homework8.dll
+C:\Users\franc\OneDrive\Documents\CLPLDOTNETTASKS\homework8\obj\Debug\net8.0\homework8.pdb
+C:\Users\franc\OneDrive\Documents\CLPLDOTNETTASKS\homework8\obj\Debug\net8.0\homework8.genruntimeconfig.cache
+C:\Users\franc\OneDrive\Documents\CLPLDOTNETTASKS\homework8\obj\Debug\net8.0\ref\homework8.dll
