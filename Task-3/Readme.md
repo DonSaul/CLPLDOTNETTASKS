@@ -42,7 +42,58 @@ This project is designed to demonstrate various utility functions, ranging from 
 
 ## Example Prompt
 ![Class Diagram](Example-prompt.png "Example prompt")
+```
+-----------------------------------------------
+Enter the first integer (a): 4
+Enter the second integer (b): 20
+Result: There are 5 integers divisible by 3 in the range [4..20].
 
+Task 2: Print Every Second Character in a String
+------------------------------------------------
+Enter a string: Lorem ipsum dolor sit amet
+Result: The second characters in the string are "oe pu oo i mt".
+
+Task 3: Get Drink Price
+------------------------
+Enter the name of the drink (Options: coffee, tea, juice, water):
+cofee
+Invalid option. Please enter one of the following: coffee, tea, juice, water
+coffee
+Result: The price of Coffee is $2.
+
+Task 4: Calculate Arithmetic Average of Positive Integers
+----------------------------------------------------------
+Enter positive integers (negative number to stop):
+4
+23
+4
+2
+3
+4
+5
+-2
+Result: The arithmetic average of the entered numbers is 6.43.
+
+Task 5: Check if a Year is a Leap Year
+--------------------------------------
+Enter a year:
+2044
+Result: The year 2044 is a leap year.
+
+Task 6: Find Sum of Digits of an Integer
+----------------------------------------
+Enter an integer number:
+2445
+Result: The sum of the digits in the number 2445 is 15.
+
+Task 7: Check if Integer Contains Only Odd Numbers
+--------------------------------------------------
+Enter an integer number:
+243
+Result: The number 243 does not contain only odd digits.
+
+Many thanks for trying this program! Have a good day! Process Terminated.
+```
 ---
 *Note: This document provides a basic overview of the project structure and class responsibilities. For detailed implementation, refer to the source code.*
 
