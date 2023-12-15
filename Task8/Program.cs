@@ -59,10 +59,31 @@ class Program
         Console.WriteLine("List written to file: people.txt");
         Console.WriteLine();
 
+        Console.WriteLine("Filtering Staff from common people...");
+        List<Staff> staffs = new List<Staff>();
+        foreach (Person person in people)
+        {
+            if (person is Staff staff)
+            {
+                staffs.Add(staff);
+            }
+        }
+        Console.WriteLine("Sorting by salary...");
+        staffs.Sort(CompareStaffBySalary);
+        foreach (Staff staff in staffs)
+        {
+            staff.Print();
+        }
+        Console.WriteLine("Done!!!");
     }
 
     private static int ComparePeopleByName(Person person1, Person person2)
     {
         return person1.Name.CompareTo(person2.Name);
+    }
+
+    private static int CompareStaffBySalary(Staff staff1, Staff staff2)
+    {
+        return staff1.Salary.CompareTo(staff2.Salary);
     }
 }
