@@ -6,6 +6,7 @@ class Program
         Console.WriteLine("Creating people list... ");
         List<Person> people = [];
         Console.WriteLine("Done.");
+        Console.WriteLine();
 
         Console.WriteLine("Adding the following people to the list:");
         people.Add(new Person("Mauricio"));
@@ -19,6 +20,7 @@ class Program
             person.Print();
         }
         Console.WriteLine("Done.");
+        Console.WriteLine();
 
         Console.WriteLine("Now, please type in the name of a person to see if it's in the list:");
         Console.Write("> ");
@@ -42,6 +44,8 @@ class Program
         {
             Console.WriteLine("Ehhh... That person is not on the list.");
         }
+        Console.WriteLine();
+
         Console.WriteLine("Now sorting the list by name...");
         people.Sort(ComparePeopleByName);
         using (StreamWriter writer = new("people.txt", false))
@@ -53,6 +57,7 @@ class Program
             }
         }
         Console.WriteLine("List written to file: people.txt");
+        Console.WriteLine();
 
     }
 
