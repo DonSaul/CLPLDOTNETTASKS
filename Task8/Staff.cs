@@ -8,6 +8,7 @@
             this.salary = salary;
         }
         public override string Name { get { return base.Name + " Staff"; } }
+        public int Salary { get { return salary; } }
         public override void Print()
         {
             Console.WriteLine("Person {0} has salary: ${1}", Name, this.salary);
