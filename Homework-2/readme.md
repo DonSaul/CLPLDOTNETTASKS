@@ -4,20 +4,15 @@ This C# Console Application is a comprehensive project that demonstrates basic C
 
 ## Features
 
-1. **Float Range Check**
-   - Reads three floating-point numbers and checks if they all belong to the range [-5, 5].
+1. **Float Range Check:** Reads three floating-point numbers and checks if they all belong to the range [-5, 5].
 
-2. **Maximum and Minimum Finder**
-   - Accepts three integer values and determines the maximum and minimum among them.
+2. **Maximum and Minimum Finder:** Accepts three integer values and determines the maximum and minimum among them.
 
-3. **HTTP Error Resolver**
-   - Reads a numeric HTTP error code and outputs the corresponding error name using an enum.
+3. **HTTP Error Resolver:** Reads a numeric HTTP error code and outputs the corresponding error name using an enum.
 
-4. **Dog Struct Handling**
-   - Implements a `Dog` struct with properties for name, mark, and age. It reads values for a `Dog` instance and displays them.
+4. **Dog Struct Handling:** Implements a `Dog` struct with properties for name, mark, and age. It reads values for a `Dog` instance and displays them.
 
-5. **Utility Functions**
-   - Includes utility functions for parsing float and integer arrays from user input.
+5. **Utility Functions:** Includes utility functions for parsing float and integer arrays from user input.
 
 ## How to Run
 
