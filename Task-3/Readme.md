@@ -1,9 +1,26 @@
-﻿## Overview
+﻿## SoftServe | Task 3: Arithmetic and Text Operations Application
 This project is designed to demonstrate various utility functions, ranging from basic arithmetic operations to string manipulations and input validations. It is structured into three main classes: `Solver`, `UserInteraction`, and `UserInputValidation`.
 
+## Features
+The application includes the following features:
+- **Arithmetic Operations**: Count integers divisible by 3 in a range, calculate the arithmetic average of a sequence of positive integers, and find the sum of digits of an entered integer.
+- **String Manipulations**: Print every second character from a provided string.
+- **Input Validations**: Comprehensive validation for integers, strings, and integer sequences to ensure correct inputs.
+- **Logical Operations**: Determine if a year is a leap year and check if an entered integer contains only odd digits.
+- **Utility Functions**: Get the price of a drink based on its name.
+
 ## Instruction for Use
+1. Compile and run the application using a C# compatible IDE or a command-line tool.
+2. Follow the on-screen prompts to enter the required inputs for each task.
+3. The application validates inputs and provides the results for the corresponding task.
 
 ## Interacting with the Application
+- Users are prompted to input data relevant to the task at hand.
+- For arithmetic tasks, enter the required numbers when prompted to receive immediate calculations.
+- For string manipulation tasks, provide the string as instructed to see the processed results.
+- Automatic input validation is performed, and users will be prompted again if an invalid input is detected.
+- Results are displayed in the console after each task completion.
+
 
 
 ## Example Prompt
@@ -63,7 +80,7 @@ Many thanks for trying this program! Have a good day! Process Terminated.
 *Note: This document provides a basic overview of the project structure and class responsibilities. For detailed implementation, refer to the source code.*
 
 ## Classes
-![Class Diagram](Task-3-Class-Diagram.png "Class Diagram")
+![Task 3 - Class Diagram](Task-3-Class-Diagram.png "Task 3 - Class Diagram")
 
 
 ### 1. UserInteraction

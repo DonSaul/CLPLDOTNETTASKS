@@ -45,7 +45,3 @@ Lines Containing 'var':
 - Here is a line with a variable declaration: int...
 - A line with multiple var var var.
 ```
-
-## Classes
-
-Note: The program's output includes a line-by-line analysis of the text file, displaying the total number of characters in each line, as well as highlighting the longest and shortest lines and lines containing the word "var".
