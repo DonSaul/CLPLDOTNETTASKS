@@ -1,9 +1,9 @@
 ﻿## Overview
 This project is designed to demonstrate various utility functions, ranging from basic arithmetic operations to string manipulations and input validations. It is structured into three main classes: `Solver`, `UserInteraction`, and `UserInputValidation`.
 
-##
+## Instruction for Use
 
-##
+## Interacting with the Application
 
 
 ## Example Prompt
@@ -63,7 +63,7 @@ Many thanks for trying this program! Have a good day! Process Terminated.
 *Note: This document provides a basic overview of the project structure and class responsibilities. For detailed implementation, refer to the source code.*
 
 ## Classes
-![Class Diagram](Task-3-Clss-Diagram.png "Class Diagram")
+![Class Diagram](Task-3-Class-Diagram.png "Class Diagram")
 
 
 ### 1. UserInteraction
