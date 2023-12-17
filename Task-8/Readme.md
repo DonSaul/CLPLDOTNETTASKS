@@ -20,6 +20,7 @@ Upon running, the application will display a list of predefined individuals, eac
 The application will prompt you to enter the name of a person to search for. Simply type the name and press Enter. The details of the person, if found, will be displayed.
 
 ```csharp
+List of People:
 
 Name: Alice
 

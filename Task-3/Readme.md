@@ -25,7 +25,8 @@ The application includes the following features:
 
 ## Example Prompt
 ```
------------------------------------------------
+Task 1: Count Integers Divisible by 3 in a Range
+------------------------------------------------
 Enter the first integer (a): 4
 Enter the second integer (b): 20
 Result: There are 5 integers divisible by 3 in the range [4..20].
