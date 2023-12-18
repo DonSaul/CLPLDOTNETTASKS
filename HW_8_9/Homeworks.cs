@@ -49,9 +49,18 @@ class Homeworks
 
         Console.WriteLine("Great! Here are the shapes we've just created:");
         Console.WriteLine("Shape:         Area (u^2):    Perimeter:");
-        foreach (Shape shape in shapes)
+        double maxPerimeter = 0;
+        sbyte maxIdx = -1;
+        for (sbyte i = 0;i < shapes.Count;i++)
         {
+            Shape shape = shapes[i];
             Console.WriteLine("{0,-15}{1,-15:F3}{2:F3}", shape.Name, shape.Area(), shape.Perimeter());
+            if (shape.Perimeter() > maxPerimeter)
+            {
+                maxPerimeter = shape.Perimeter();
+                maxIdx = i;
+            }
         }
+        Console.WriteLine("And out of theese, {0} has the largest perimeter!", shapes[maxIdx].Name);
     }
 }
