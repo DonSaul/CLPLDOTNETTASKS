@@ -46,6 +46,7 @@ class Homeworks
             } while (!rez);
             shapes.Add(new Circle("Square " + i.ToString(), Math.Abs(side)));
         }
+        Console.WriteLine();
 
         Console.WriteLine("Great! Here are the shapes we've just created:");
         Console.WriteLine("Shape:         Area (u^2):    Perimeter:");
@@ -61,6 +62,7 @@ class Homeworks
                 maxIdx = i;
             }
         }
+        Console.WriteLine();
         Console.WriteLine("And out of theese, {0} has the largest perimeter!", shapes[maxIdx].Name);
     }
 }
