@@ -64,5 +64,14 @@ class Homeworks
         }
         Console.WriteLine();
         Console.WriteLine("And out of theese, {0} has the largest perimeter!", shapes[maxIdx].Name);
+        Console.WriteLine();
+
+        Console.WriteLine("Now, sorting theese shapes by its area (ascending)...");
+        shapes.Sort();
+        foreach (Shape shape in shapes)
+        {
+            Console.WriteLine("{0}: {1:F3}", shape.Name, shape.Area());
+        }
+        Console.WriteLine("Done!!!");
     }
 }
