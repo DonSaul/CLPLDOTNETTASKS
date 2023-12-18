@@ -1,8 +1,8 @@
 ﻿namespace HW_8_9
 {
-    class Circle(string name, int radius) : Shape(name)
+    class Circle(string name, double radius) : Shape(name)
     {
-        private readonly int radius = radius;
+        private readonly double radius = radius;
         public override double Area()
         {
             return radius * radius * Math.PI;
