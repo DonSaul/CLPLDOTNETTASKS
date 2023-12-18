@@ -1,0 +1,15 @@
+C:\Users\saldias.j\Documents\GITSoftserve\Homework4a2\Homework4a2\bin\Debug\net7.0\Homework4a2.exe
+C:\Users\saldias.j\Documents\GITSoftserve\Homework4a2\Homework4a2\bin\Debug\net7.0\Homework4a2.deps.json
+C:\Users\saldias.j\Documents\GITSoftserve\Homework4a2\Homework4a2\bin\Debug\net7.0\Homework4a2.runtimeconfig.json
+C:\Users\saldias.j\Documents\GITSoftserve\Homework4a2\Homework4a2\bin\Debug\net7.0\Homework4a2.dll
+C:\Users\saldias.j\Documents\GITSoftserve\Homework4a2\Homework4a2\bin\Debug\net7.0\Homework4a2.pdb
+C:\Users\saldias.j\Documents\GITSoftserve\Homework4a2\Homework4a2\obj\Debug\net7.0\Homework4a2.csproj.AssemblyReference.cache
+C:\Users\saldias.j\Documents\GITSoftserve\Homework4a2\Homework4a2\obj\Debug\net7.0\Homework4a2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saldias.j\Documents\GITSoftserve\Homework4a2\Homework4a2\obj\Debug\net7.0\Homework4a2.AssemblyInfoInputs.cache
+C:\Users\saldias.j\Documents\GITSoftserve\Homework4a2\Homework4a2\obj\Debug\net7.0\Homework4a2.AssemblyInfo.cs
+C:\Users\saldias.j\Documents\GITSoftserve\Homework4a2\Homework4a2\obj\Debug\net7.0\Homework4a2.csproj.CoreCompileInputs.cache
+C:\Users\saldias.j\Documents\GITSoftserve\Homework4a2\Homework4a2\obj\Debug\net7.0\Homework4a2.dll
+C:\Users\saldias.j\Documents\GITSoftserve\Homework4a2\Homework4a2\obj\Debug\net7.0\refint\Homework4a2.dll
+C:\Users\saldias.j\Documents\GITSoftserve\Homework4a2\Homework4a2\obj\Debug\net7.0\Homework4a2.pdb
+C:\Users\saldias.j\Documents\GITSoftserve\Homework4a2\Homework4a2\obj\Debug\net7.0\Homework4a2.genruntimeconfig.cache
+C:\Users\saldias.j\Documents\GITSoftserve\Homework4a2\Homework4a2\obj\Debug\net7.0\ref\Homework4a2.dll
