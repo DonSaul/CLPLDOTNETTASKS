@@ -2,7 +2,7 @@
 {
     class Square(string name, double side) : Shape(name)
     {
-        private double side = side;
+        private readonly double side = side;
         public override double Area()
         {
             return side * side;
