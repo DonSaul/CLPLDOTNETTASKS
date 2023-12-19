@@ -3,7 +3,7 @@ using System.Linq;
 using System.Net;
 internal class Homework9
 {
-    public void TaskA()
+    public static void TaskA()
     {
         Console.WriteLine("Creating list of shapes...");
         List<Shape> shapes = [
