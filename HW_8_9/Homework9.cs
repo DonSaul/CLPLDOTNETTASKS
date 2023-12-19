@@ -63,7 +63,25 @@ internal class Homework9
         {
             lines = client.GetStringAsync(URL).Result.Split('\n');
         }
-        Console.WriteLine("Done! Read a total of {0} lines of text", lines.Length);
+        Console.WriteLine("Done! Read a total of {0} lines of text, in fact:", lines.Length);
 
+        uint maxLen = 0, minLen = uint.MaxValue;
+        uint maxIdx = 0, minIdx = 0;
+        for (uint i = 0; i < lines.Length; i++)
+        {
+            uint len = (uint)lines[i].Length;
+            Console.WriteLine("Line {0} has {1} characters.", (i + 1), len);
+            if (len > maxLen)
+            {
+                maxLen = len;
+                maxIdx = i;
+            }
+            if (len < minLen)
+            {
+                minLen = len;
+                minIdx = i;
+            }
+        }
+        Console.WriteLine("Thus making lines {0} and {1} the longest and shortest of the file, respectively.", maxIdx + 1, minIdx + 1);
     }
 }
