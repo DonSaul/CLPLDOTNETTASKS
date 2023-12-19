@@ -8,10 +8,10 @@ internal class Homework9
         List<Shape> shapes = [
             new Circle("C1", 6),
             new Circle("C2", 65),
-            new Circle("C3", 45),
+            new Circle("C3", 4.5),
             new Square("S1", 34),
             new Square("S2", 45.2),
-            new Square("S3", 80.6)
+            new Square("S3", 8.6)
         ];
         foreach (Shape shape in shapes)
         {
