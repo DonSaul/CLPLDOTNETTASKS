@@ -1,6 +1,6 @@
 ﻿using HW_8_9;
 
-class Homeworks
+class Homework8
 {
     static void Main(string[] args)
     {
