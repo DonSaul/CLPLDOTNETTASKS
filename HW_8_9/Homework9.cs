@@ -44,5 +44,12 @@ internal class Homework9
         Console.WriteLine("Written to shapes_with_a.txt\n");
 
         Console.WriteLine("Filtering shapes by perimeter >= 5:");
+        shapeQuery = from s in shapes where s.Perimeter() >=5 select s;
+        shapes = shapeQuery.ToList();
+        foreach (Shape shape in shapes)
+        {
+            Console.WriteLine("{0}, {1:F3}", shape.Name, shape.Perimeter());
+        }
+        Console.WriteLine("Done!!!");
     }
 }
