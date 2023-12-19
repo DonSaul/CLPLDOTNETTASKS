@@ -26,7 +26,7 @@ internal class Homework9
             foreach (Shape shape in shapeQuery)
             {
                 Console.WriteLine(shape.Name);
-                writer.WriteLine("{0}, {1}", shape.Name, shape.Perimeter());
+                writer.WriteLine("{0}, {1}", shape.Name, shape.Area());
             }
         }
         Console.WriteLine("Written to shapes_by_area.txt\n");
