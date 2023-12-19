@@ -19,9 +19,9 @@ internal class Homework9
         }
         Console.WriteLine("Done.\n");
 
-        Console.WriteLine("Selecting shapes with perimeter between 10 and 100");
+        Console.WriteLine("Selecting shapes with area between 10 and 100");
         IEnumerable<Shape> shapeQuery = from s in shapes where s.Perimeter() >= 10 && s.Perimeter() <= 100 select s;
-        using (StreamWriter writer = new("shape_by_perimeter.txt", false))
+        using (StreamWriter writer = new("shapes_by_area.txt", false))
         {
             foreach (Shape shape in shapeQuery)
             {
@@ -29,6 +29,20 @@ internal class Homework9
                 writer.WriteLine("{0}, {1}", shape.Name, shape.Perimeter());
             }
         }
-        Console.WriteLine("Written to shape_by_perimeter.txt\n");
+        Console.WriteLine("Written to shapes_by_area.txt\n");
+
+        Console.WriteLine("Selecting shapes with an 'a' in its name");
+        shapeQuery = from s in shapes where s.Name.Contains('a') select s;
+        using (StreamWriter writer = new("shapes_with_a.txt", false))
+        {
+            foreach (Shape shape in shapeQuery)
+            {
+                Console.WriteLine(shape.Name);
+                writer.WriteLine(shape.Name);
+            }
+        }
+        Console.WriteLine("Written to shapes_with_a.txt\n");
+
+        Console.WriteLine("Filtering shapes by perimeter >= 5:");
     }
 }
