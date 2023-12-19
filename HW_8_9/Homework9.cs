@@ -1,5 +1,6 @@
 ﻿using HW_8_9;
 using System.Linq;
+using System.Net;
 internal class Homework9
 {
     public void TaskA()
@@ -51,5 +52,18 @@ internal class Homework9
             Console.WriteLine("{0}, {1:F3}", shape.Name, shape.Perimeter());
         }
         Console.WriteLine("Done!!!");
+    }
+    public static void TaskB()
+    {
+        string URL = "https://raw.githubusercontent.com/AcencioMauricioIcinf/DaoFactory/master/DaoDriver.java";
+        string[] lines;
+
+        Console.WriteLine("Reading from online file " + URL);
+        using (HttpClient client = new())
+        {
+            lines = client.GetStringAsync(URL).Result.Split('\n');
+        }
+        Console.WriteLine("Done! Read a total of {0} lines of text", lines.Length);
+
     }
 }
