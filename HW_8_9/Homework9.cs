@@ -19,6 +19,16 @@ internal class Homework9
         }
         Console.WriteLine("Done.\n");
 
-
+        Console.WriteLine("Selecting shapes with perimeter between 10 and 100");
+        var shapeQuery = from s in shapes where s.Perimeter() >= 10 && s.Perimeter() <= 100 select s;
+        using (StreamWriter writer = new("shape_by_perimeter.txt", false))
+        {
+            foreach (Shape shape in shapeQuery)
+            {
+                Console.WriteLine(shape.Name);
+                writer.WriteLine("{0}, {1}", shape.Name, shape.Perimeter());
+            }
+        }
+        Console.WriteLine("Written to shape_by_perimeter.txt\n");
     }
 }
