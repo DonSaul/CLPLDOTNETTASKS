@@ -1,0 +1,15 @@
+C:\Users\saldias.j\Documents\GITSoftserve\Task8e\Task8e\bin\Debug\net7.0\Task8e.exe
+C:\Users\saldias.j\Documents\GITSoftserve\Task8e\Task8e\bin\Debug\net7.0\Task8e.deps.json
+C:\Users\saldias.j\Documents\GITSoftserve\Task8e\Task8e\bin\Debug\net7.0\Task8e.runtimeconfig.json
+C:\Users\saldias.j\Documents\GITSoftserve\Task8e\Task8e\bin\Debug\net7.0\Task8e.dll
+C:\Users\saldias.j\Documents\GITSoftserve\Task8e\Task8e\bin\Debug\net7.0\Task8e.pdb
+C:\Users\saldias.j\Documents\GITSoftserve\Task8e\Task8e\obj\Debug\net7.0\Task8e.csproj.AssemblyReference.cache
+C:\Users\saldias.j\Documents\GITSoftserve\Task8e\Task8e\obj\Debug\net7.0\Task8e.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saldias.j\Documents\GITSoftserve\Task8e\Task8e\obj\Debug\net7.0\Task8e.AssemblyInfoInputs.cache
+C:\Users\saldias.j\Documents\GITSoftserve\Task8e\Task8e\obj\Debug\net7.0\Task8e.AssemblyInfo.cs
+C:\Users\saldias.j\Documents\GITSoftserve\Task8e\Task8e\obj\Debug\net7.0\Task8e.csproj.CoreCompileInputs.cache
+C:\Users\saldias.j\Documents\GITSoftserve\Task8e\Task8e\obj\Debug\net7.0\Task8e.dll
+C:\Users\saldias.j\Documents\GITSoftserve\Task8e\Task8e\obj\Debug\net7.0\refint\Task8e.dll
+C:\Users\saldias.j\Documents\GITSoftserve\Task8e\Task8e\obj\Debug\net7.0\Task8e.pdb
+C:\Users\saldias.j\Documents\GITSoftserve\Task8e\Task8e\obj\Debug\net7.0\Task8e.genruntimeconfig.cache
+C:\Users\saldias.j\Documents\GITSoftserve\Task8e\Task8e\obj\Debug\net7.0\ref\Task8e.dll
