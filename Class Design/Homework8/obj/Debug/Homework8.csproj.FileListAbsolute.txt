@@ -1,0 +1,7 @@
+D:\Study\SoftServe\CLPLDOTNETTASKS\Class Design\Homework8\bin\Debug\Homework8.exe.config
+D:\Study\SoftServe\CLPLDOTNETTASKS\Class Design\Homework8\bin\Debug\Homework8.exe
+D:\Study\SoftServe\CLPLDOTNETTASKS\Class Design\Homework8\bin\Debug\Homework8.pdb
+D:\Study\SoftServe\CLPLDOTNETTASKS\Class Design\Homework8\obj\Debug\Homework8.csproj.AssemblyReference.cache
+D:\Study\SoftServe\CLPLDOTNETTASKS\Class Design\Homework8\obj\Debug\Homework8.csproj.CoreCompileInputs.cache
+D:\Study\SoftServe\CLPLDOTNETTASKS\Class Design\Homework8\obj\Debug\Homework8.exe
+D:\Study\SoftServe\CLPLDOTNETTASKS\Class Design\Homework8\obj\Debug\Homework8.pdb
