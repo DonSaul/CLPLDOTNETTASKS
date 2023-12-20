@@ -1,0 +1,7 @@
+D:\Study\SoftServe\CLPLDOTNETTASKS\Regex\Homework4\bin\Debug\Homework4.exe.config
+D:\Study\SoftServe\CLPLDOTNETTASKS\Regex\Homework4\bin\Debug\Homework4.exe
+D:\Study\SoftServe\CLPLDOTNETTASKS\Regex\Homework4\bin\Debug\Homework4.pdb
+D:\Study\SoftServe\CLPLDOTNETTASKS\Regex\Homework4\obj\Debug\Homework4.csproj.AssemblyReference.cache
+D:\Study\SoftServe\CLPLDOTNETTASKS\Regex\Homework4\obj\Debug\Homework4.csproj.CoreCompileInputs.cache
+D:\Study\SoftServe\CLPLDOTNETTASKS\Regex\Homework4\obj\Debug\Homework4.exe
+D:\Study\SoftServe\CLPLDOTNETTASKS\Regex\Homework4\obj\Debug\Homework4.pdb

@@ -20,16 +20,19 @@ namespace Homework8
                     Console.WriteLine("Name: ");
                     string name = Console.ReadLine();
 
+                    Console.Write("Type (1) for Circle, (2) for Square: ");
+                    int type = int.Parse(Console.ReadLine());
+
                     Shape shape = null;
 
-                    switch (name.ToLower())
+                    switch (type)
                     {
-                        case "circle":
+                        case 1:
                             Console.WriteLine("Radius: ");
                             double radius = double.Parse(Console.ReadLine());
                             shape = new Circle(name, radius);
                             break;
-                        case "square":
+                        case 2:
                             Console.WriteLine("Side: ");
                             double side = double.Parse(Console.ReadLine());
                             shape = new Square(name, side);

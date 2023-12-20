@@ -1,0 +1,3 @@
+Square1 - Perimeter: 16, Area: 16
+Square2 - Perimeter: 4, Area: 1
+Square3 - Perimeter: 25,2, Area: 39,69
