@@ -7,6 +7,8 @@ class Homework8
         Console.WriteLine("--------Homework 8:--------");
         ShowHomework8();
         Console.WriteLine("--------Homework 9:--------");
+        Homework9.TaskA();
+        Homework9.TaskB();
     }
 
     private static void ShowHomework8()
