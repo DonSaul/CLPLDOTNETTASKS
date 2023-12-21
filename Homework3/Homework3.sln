@@ -1,25 +1,52 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.5.002.0
+VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework3", "Homework3.csproj", "{D15F67A8-C09E-4728-BCC3-D7AD81B3D967}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework3", "Homework3.csproj", "{23D8A3ED-828A-4FF9-804D-53D6649A5F73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework5", "..\Homework5\Homework5.csproj", "{C1313CB2-DCEF-42CE-89AF-E9051E959AF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Part1", "..\Homework5\Part1\Part1.csproj", "{5AF31E0A-8235-4002-B871-1DE441056810}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Part2", "..\Homework5\Part2\Part2.csproj", "{7FDF718B-1594-4B40-A823-39074D2DF6C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Question1", "..\Homework6\Question1\Question1.csproj", "{0D67E756-33C4-42D0-B919-05CC659B5146}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Question2", "..\Homework6\Question2\Question2.csproj", "{0FC4E4C0-F9FB-4644-B50C-4800DD402198}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D15F67A8-C09E-4728-BCC3-D7AD81B3D967}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D15F67A8-C09E-4728-BCC3-D7AD81B3D967}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D15F67A8-C09E-4728-BCC3-D7AD81B3D967}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D15F67A8-C09E-4728-BCC3-D7AD81B3D967}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {1E800FE5-F9DA-42BC-B0D8-77D05A80A477}
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23D8A3ED-828A-4FF9-804D-53D6649A5F73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23D8A3ED-828A-4FF9-804D-53D6649A5F73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23D8A3ED-828A-4FF9-804D-53D6649A5F73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23D8A3ED-828A-4FF9-804D-53D6649A5F73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1313CB2-DCEF-42CE-89AF-E9051E959AF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1313CB2-DCEF-42CE-89AF-E9051E959AF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1313CB2-DCEF-42CE-89AF-E9051E959AF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1313CB2-DCEF-42CE-89AF-E9051E959AF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AF31E0A-8235-4002-B871-1DE441056810}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AF31E0A-8235-4002-B871-1DE441056810}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AF31E0A-8235-4002-B871-1DE441056810}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AF31E0A-8235-4002-B871-1DE441056810}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FDF718B-1594-4B40-A823-39074D2DF6C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FDF718B-1594-4B40-A823-39074D2DF6C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FDF718B-1594-4B40-A823-39074D2DF6C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FDF718B-1594-4B40-A823-39074D2DF6C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D67E756-33C4-42D0-B919-05CC659B5146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D67E756-33C4-42D0-B919-05CC659B5146}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D67E756-33C4-42D0-B919-05CC659B5146}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D67E756-33C4-42D0-B919-05CC659B5146}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FC4E4C0-F9FB-4644-B50C-4800DD402198}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FC4E4C0-F9FB-4644-B50C-4800DD402198}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FC4E4C0-F9FB-4644-B50C-4800DD402198}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FC4E4C0-F9FB-4644-B50C-4800DD402198}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

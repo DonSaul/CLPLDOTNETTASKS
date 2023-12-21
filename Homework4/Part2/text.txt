@@ -1,0 +1,20 @@
+var
+#var!
+var = 10;
+No symbols here.
+var_function()
+*var*
+const myVar = "Hello";
+Another line without symbols.
+console.log("This is the longest line in this file!");
+var x = 5 + 3;
+Special characters: !@#$%^&*()_+
+var_name = "John";
+No symbols again.
+var * invalidSymbol = 20;
+var
+asdasda
+gerhg
+#%$^$%^adasd@!@!
+#!@#!@#
+End of the file.
