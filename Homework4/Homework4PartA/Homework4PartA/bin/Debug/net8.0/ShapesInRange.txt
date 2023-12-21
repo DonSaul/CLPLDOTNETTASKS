@@ -1,0 +1,2 @@
+Shape 1: Square: Area = 100, Perimeter = 40
+Shape 6: Circle: Area = 12,566370614359172, Perimeter = 12,566370614359172

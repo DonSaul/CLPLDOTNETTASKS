@@ -85,6 +85,7 @@ class Homework2
         string answer = (numberFloat >= -5 && numberFloat <= 5) ?
             $"Number: {numberFloat} belongs to range[-5, 5]" : $"Number: {numberFloat} doesn't belong to range [-5, 5]";
 
+        //checks if the float number is inside the [-5, 5] range or not
         if (numberFloat >= -5 && numberFloat <= 5) {
             counterFloat++;
         }
@@ -145,7 +146,7 @@ class Homework2
         Console.WriteLine("-----------------------------------------");
 
         string answerA = (counterFloat == 3) ?
-             "All of the numbers belongs to range[-5, 5]" : "Not all of numbers belong to range [-5, 5]";
+             "All of the numbers belongs to range[-5, 5]" : "Not all of the numbers belongs to range [-5, 5]";
         Console.WriteLine(answerA);
         Console.WriteLine("-----------------------------------------");
 

@@ -6,6 +6,9 @@
         //Part A
         
         Console.WriteLine("Homework1 ");
+        
+        Console.WriteLine("Part A:");
+        Console.WriteLine("--------------------------");
         int squareLength;
         bool isValidInputNumber;
 
@@ -31,6 +34,7 @@
         //Part B
 
         Console.WriteLine("--------------------------");
+        Console.WriteLine("Part B:");
         string userName;
         bool isValidInputName;
 
@@ -73,6 +77,7 @@
         //Part C 
 
         Console.WriteLine("--------------------------");
+        Console.WriteLine("Part C:");
         double circleRadius;
         bool isValidInputNumberR;
 

@@ -1,0 +1,15 @@
+C:\Users\madok\Desktop\HTMLCSSJAVASCRIPT\Matias_Martinez\Homework8\Homework8\bin\Debug\net8.0\Homework8.exe
+C:\Users\madok\Desktop\HTMLCSSJAVASCRIPT\Matias_Martinez\Homework8\Homework8\bin\Debug\net8.0\Homework8.deps.json
+C:\Users\madok\Desktop\HTMLCSSJAVASCRIPT\Matias_Martinez\Homework8\Homework8\bin\Debug\net8.0\Homework8.runtimeconfig.json
+C:\Users\madok\Desktop\HTMLCSSJAVASCRIPT\Matias_Martinez\Homework8\Homework8\bin\Debug\net8.0\Homework8.dll
+C:\Users\madok\Desktop\HTMLCSSJAVASCRIPT\Matias_Martinez\Homework8\Homework8\bin\Debug\net8.0\Homework8.pdb
+C:\Users\madok\Desktop\HTMLCSSJAVASCRIPT\Matias_Martinez\Homework8\Homework8\obj\Debug\net8.0\Homework8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\madok\Desktop\HTMLCSSJAVASCRIPT\Matias_Martinez\Homework8\Homework8\obj\Debug\net8.0\Homework8.AssemblyInfoInputs.cache
+C:\Users\madok\Desktop\HTMLCSSJAVASCRIPT\Matias_Martinez\Homework8\Homework8\obj\Debug\net8.0\Homework8.AssemblyInfo.cs
+C:\Users\madok\Desktop\HTMLCSSJAVASCRIPT\Matias_Martinez\Homework8\Homework8\obj\Debug\net8.0\Homework8.csproj.CoreCompileInputs.cache
+C:\Users\madok\Desktop\HTMLCSSJAVASCRIPT\Matias_Martinez\Homework8\Homework8\obj\Debug\net8.0\Homework8.sourcelink.json
+C:\Users\madok\Desktop\HTMLCSSJAVASCRIPT\Matias_Martinez\Homework8\Homework8\obj\Debug\net8.0\Homework8.dll
+C:\Users\madok\Desktop\HTMLCSSJAVASCRIPT\Matias_Martinez\Homework8\Homework8\obj\Debug\net8.0\refint\Homework8.dll
+C:\Users\madok\Desktop\HTMLCSSJAVASCRIPT\Matias_Martinez\Homework8\Homework8\obj\Debug\net8.0\Homework8.pdb
+C:\Users\madok\Desktop\HTMLCSSJAVASCRIPT\Matias_Martinez\Homework8\Homework8\obj\Debug\net8.0\Homework8.genruntimeconfig.cache
+C:\Users\madok\Desktop\HTMLCSSJAVASCRIPT\Matias_Martinez\Homework8\Homework8\obj\Debug\net8.0\ref\Homework8.dll

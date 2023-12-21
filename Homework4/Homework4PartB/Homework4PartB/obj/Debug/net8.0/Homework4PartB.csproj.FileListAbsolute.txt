@@ -1,0 +1,15 @@
+C:\Users\madok\Desktop\HTMLCSSJAVASCRIPT\Matias_Martinez\Homework4\Homework4PartB\Homework4PartB\bin\Debug\net8.0\Homework4PartB.exe
+C:\Users\madok\Desktop\HTMLCSSJAVASCRIPT\Matias_Martinez\Homework4\Homework4PartB\Homework4PartB\bin\Debug\net8.0\Homework4PartB.deps.json
+C:\Users\madok\Desktop\HTMLCSSJAVASCRIPT\Matias_Martinez\Homework4\Homework4PartB\Homework4PartB\bin\Debug\net8.0\Homework4PartB.runtimeconfig.json
+C:\Users\madok\Desktop\HTMLCSSJAVASCRIPT\Matias_Martinez\Homework4\Homework4PartB\Homework4PartB\bin\Debug\net8.0\Homework4PartB.dll
+C:\Users\madok\Desktop\HTMLCSSJAVASCRIPT\Matias_Martinez\Homework4\Homework4PartB\Homework4PartB\bin\Debug\net8.0\Homework4PartB.pdb
+C:\Users\madok\Desktop\HTMLCSSJAVASCRIPT\Matias_Martinez\Homework4\Homework4PartB\Homework4PartB\obj\Debug\net8.0\Homework4PartB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\madok\Desktop\HTMLCSSJAVASCRIPT\Matias_Martinez\Homework4\Homework4PartB\Homework4PartB\obj\Debug\net8.0\Homework4PartB.AssemblyInfoInputs.cache
+C:\Users\madok\Desktop\HTMLCSSJAVASCRIPT\Matias_Martinez\Homework4\Homework4PartB\Homework4PartB\obj\Debug\net8.0\Homework4PartB.AssemblyInfo.cs
+C:\Users\madok\Desktop\HTMLCSSJAVASCRIPT\Matias_Martinez\Homework4\Homework4PartB\Homework4PartB\obj\Debug\net8.0\Homework4PartB.csproj.CoreCompileInputs.cache
+C:\Users\madok\Desktop\HTMLCSSJAVASCRIPT\Matias_Martinez\Homework4\Homework4PartB\Homework4PartB\obj\Debug\net8.0\Homework4PartB.sourcelink.json
+C:\Users\madok\Desktop\HTMLCSSJAVASCRIPT\Matias_Martinez\Homework4\Homework4PartB\Homework4PartB\obj\Debug\net8.0\Homework4PartB.dll
+C:\Users\madok\Desktop\HTMLCSSJAVASCRIPT\Matias_Martinez\Homework4\Homework4PartB\Homework4PartB\obj\Debug\net8.0\refint\Homework4PartB.dll
+C:\Users\madok\Desktop\HTMLCSSJAVASCRIPT\Matias_Martinez\Homework4\Homework4PartB\Homework4PartB\obj\Debug\net8.0\Homework4PartB.pdb
+C:\Users\madok\Desktop\HTMLCSSJAVASCRIPT\Matias_Martinez\Homework4\Homework4PartB\Homework4PartB\obj\Debug\net8.0\Homework4PartB.genruntimeconfig.cache
+C:\Users\madok\Desktop\HTMLCSSJAVASCRIPT\Matias_Martinez\Homework4\Homework4PartB\Homework4PartB\obj\Debug\net8.0\ref\Homework4PartB.dll
