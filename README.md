@@ -1,28 +1,22 @@
 # SoftServe ProjectLab CL 2023
 
-En esta branch se encuentran las tareas realizadas por el alumno Guillermo Oliva.
+Student: Guillermo Oliva 
 
-Solo se suben los archivos .cs, .csproj y .sln, por tanto para ejecutar se debe utilizar los comandos:
+The .NET SDK version used for the development of these tasks is version 7.0.402
 
-`dotnet build`
+To run the different projects, open a terminal, navigate to the directory where the `Program.cs` and the `.csproj` file of the corresponding homework are located, and run:
+
 `dotnet run`
 
-## Tareas
+The previous command automatically runs `dotnet build`, but it may not work depending on various factors. If the projects cannot run, you might as well try to run `dotnet build`.
 
-### Tarea Git
+To run the project in Visual Studio, you may need to create a `.sln` file.
 
-Clase Git, 22-nov:
+## Tasks
 
-1. Inicializar un repositorio, agregar un archivo de texto y crear branches feature-a y feature-b
-2. Cambiarse a feature-a y agregar una línea al archivo
-3. Cambiarse a feature-b y agregar una línea al archivo, en una línea diferente que en el paso anterior
-4. Cambiarse a main y hacer merge con feature-a
-5. Intentar hacer merge con feature-b
-6. Resolver conflictos y finalizar el merge
+### Homework 1
 
-### Tarea 1
-
-Clase Code Conventions, 23-nov (H1):
+Lesson topic: Code Conventions, nov-23 (H1):
 
 Create Console Application project in VS. In method Main() write code to solve the following tasks:
 1. Define integer variable `a`. Read the value of `a` from console and calculate area and perimeter of a square with length `a`. Output obtained results.
@@ -30,9 +24,9 @@ Create Console Application project in VS. In method Main() write code to solve t
 3. Read double number `r` and calculate the length (l=2\*pi\*r), area (S=pi\*r\*r) and volume (4/3\*pi\*r\*r\*r) of a circle (sphere in the case of volume) with radius `r`.
 
 
-### Tarea 2
+### Homework 2
 
-Clase CLR, 24-nov (H2):
+Lesson topic: CLR, nov-24 (H2):
 
 1. Read 3 float numbers and check if they all belong to the range [-5,5].
 2. Read 3 integers and write the minimum and maximum value of them.
@@ -41,9 +35,9 @@ Clase CLR, 24-nov (H2):
 
 
 
-### Tarea 3
+### Homework 3
 
-Clase Statements, 27-nov (T3):
+Lesson topic: Statements, nov-27 (T3):
 
 1. Enter `a` and `b` are two integers. Calculate how many integers in the range [a..b] are divided by 3 without remainder.
 2. Enter a character string. Print each second character.
@@ -54,9 +48,9 @@ Clase Statements, 27-nov (T3):
 7. Check whether the entered integer number contains only odd numbers.
 
 
-### Tarea 4
+### Homework 4
 
-Clase Regex, 29-nov (H4):
+Lesson topic: Regex, nov-29 (H4):
 
 ##### Part A
 Use classes `Shape`, `Circle` and `Square`. Use Linq and string functions to complete next tasks:
@@ -73,7 +67,7 @@ Prepare a .txt file with a lot of text. Read each line into a string and store i
 3. Find and write only lines, which consist of word "var".
 
 
-### Tarea 5
+### Homework 5
 
 ##### T8
 1. Add two classes `Person` and `Staff` (use the presentation code).
@@ -94,3 +88,12 @@ Create abstract class `Shape` with field `name` and property `Name`.
 1. In Main() create list of `Shape`, then ask user to enter data of 10 different shapes.  Write `name`, `area` and `perimeter` of all shapes. 
 2. Find shape with the largest perimeter and print its name. 
 3. Sort shapes by area and print obtained list (Remember about `IComparable`)
+
+### Homework 6
+
+SoftServe Academy platform quiz "Practice. Interfaces. Generics"
+
+### Homework 7
+
+SoftServe Academy platform quiz "Practice. Collections"
+
