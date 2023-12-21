@@ -19,6 +19,7 @@ This C# program is designed to read a text file and perform various analyses on 
 
 ## User Prompt Example
 ```
+Line Analysis:
 ------------------------------------------------------------
 Line                                               | Symbols
 ------------------------------------------------------------
@@ -40,8 +41,6 @@ Some lines are longer than others, and this is one...
 Shortest Line:
 Short.
 
-Lines Containing 'var':
-- var usage in a simple sentence.
-- Here is a line with a variable declaration: int...
-- A line with multiple var var var.
+Lines consisting of the word 'var':
+No lines consist only of the word 'var'.
 ```
