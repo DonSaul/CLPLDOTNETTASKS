@@ -41,13 +41,16 @@ class Program
             Console.WriteLine(shortestLine);
             Console.WriteLine();
 
-            Console.WriteLine("Lines Containing 'var':");
-            foreach (string line in lines.Where(l => l.Contains("var")))
+           Console.WriteLine("Lines Containing 'var':");
+            foreach (string line in lines)
             {
-                string truncatedLine = line.Length > maxLineLength
-                                        ? line.Substring(0, maxLineLength - 3) + "..."
-                                        : line;
-                Console.WriteLine($"- {truncatedLine}");
+                if (Regex.IsMatch(line, @"\bvar\b")) // This checks for the whole word 'var'
+                {
+                    string truncatedLine = line.Length > maxLineLength
+                                                ? line.Substring(0, maxLineLength - 3) + "..."
+                                                : line;
+                    Console.WriteLine($"- {truncatedLine}");
+                }
             }
         }
         catch (Exception ex)
