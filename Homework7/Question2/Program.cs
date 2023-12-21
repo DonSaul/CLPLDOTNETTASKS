@@ -15,21 +15,23 @@
   {
     Dictionary<string, string> phonesToNames = new()
     {
-      { "1", "aa" },
-      { "2", "bb" },
-      { "3", "aa" },
-      { "4", "dd" },
-      { "5", "cc" },
-      { "6", "zz" }
+      { "12345", "Pedro" },
+      { "65789", "Pedro" },
+      { "87654", "Alvaro" },
+      { "98765", "Ballero" },
+      { "11223", "Pizzeria" },
+      { "44556", "Pizzeria" }
     };
 
     Lookup<string, string> notebook = CreateNotebook(phonesToNames);
 
     foreach (var item in notebook)
     {
+      Console.WriteLine("\n"+item.Key);
+      Console.WriteLine("----------");
       foreach (var value in item)
       {
-        Console.WriteLine(item.Key+"\t"+value);
+        Console.WriteLine(value);
       }
     }
 

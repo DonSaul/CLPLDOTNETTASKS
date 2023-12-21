@@ -42,10 +42,21 @@ internal class Program
     Student student1 = new(1, "alvaro ballero");
     Student student2 = new(2, "alvaro basurero");
     Student student3 = new(3, "alvaro repartidordepizza");
-    Student student4 = new(1, "alvaro ballero");
+    Student student4 = new(4, "alvaro famoso");
+
+    Student student5 = new(1, "alvaro ballero");
+
+    List<Student> list1 = new() { student1, student2, student3 };
+    List<Student> list2 = new() { student1, student2, student4 };
+
+    Console.WriteLine("EXPECTED: Student 1 and 2\nRESULT: ");
+    foreach (Student student in Student.GetCommonStudents(list1, list2))
+    {
+      Console.WriteLine(student.Id + " " + student.Name + "\t");
+    }
 
 
-    Console.Write("EXPECTED: True\tRESULT: ");
+    Console.Write("\nEXPECTED: True\tRESULT: ");
     Console.WriteLine(student1.Equals(student1));
 
     Console.Write("EXPECTED: False\tRESULT: ");
@@ -56,5 +67,8 @@ internal class Program
 
     Console.Write("EXPECTED: True\tRESULT: ");
     Console.WriteLine(student1.Equals(student4));
+
+    Console.Write("\nEXPECTED: True\tRESULT: ");
+    Console.WriteLine(student1.GetHashCode() == student5.GetHashCode());
   }
 }

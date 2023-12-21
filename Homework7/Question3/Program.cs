@@ -19,6 +19,26 @@
 
   private static void Main(string[] args)
   {
-    Console.WriteLine("Hello, World!");
+    Dictionary<string, string> phonesToNames = new()
+    {
+      { "12345", "Pedro" },
+      { "65789", "Pedro" },
+      { "87654", "Alvaro" },
+      { "98765", "Ballero" },
+      { "11223", "Pizzeria" },
+      { "44556", "Pizzeria" }
+    };
+
+    Dictionary<string, List<string>> namesToPhones = ReverseNotebook(phonesToNames);
+
+    foreach (KeyValuePair<string, List<string>> nameToPhones in namesToPhones)
+    {
+      Console.WriteLine("\n" + nameToPhones.Key);
+      Console.WriteLine("----------");
+      foreach (string phone in nameToPhones.Value)
+      {
+        Console.WriteLine(phone);
+      }
+    }
   }
 }
