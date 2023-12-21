@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Linq;
+using System.Text.RegularExpressions; 
 
 class Program
 {
@@ -41,17 +42,27 @@ class Program
             Console.WriteLine(shortestLine);
             Console.WriteLine();
 
-           Console.WriteLine("Lines Containing 'var':");
+            Console.WriteLine("Lines consisting of the word 'var':");
+            bool found = false; // Flag to track if any line is found
+
             foreach (string line in lines)
             {
-                if (Regex.IsMatch(line, @"\bvar\b")) // This checks for the whole word 'var'
+                if (line.Trim() == "var") // Check if the line is exactly 'var'
                 {
                     string truncatedLine = line.Length > maxLineLength
                                                 ? line.Substring(0, maxLineLength - 3) + "..."
                                                 : line;
                     Console.WriteLine($"- {truncatedLine}");
+                    found = true; // Set flag to true as a line is found
                 }
             }
+
+            if (!found) // Check if no line was found
+            {
+                Console.WriteLine("No lines consist only of the word 'var'.");
+            }
+
+
         }
         catch (Exception ex)
         {
