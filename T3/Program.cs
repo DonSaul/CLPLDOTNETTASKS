@@ -181,6 +181,7 @@ class Program
             if (!rez)
             {
                 Console.WriteLine("Sorry, that's not an integer!");
+                return;
             }
         }
 
@@ -195,6 +196,6 @@ class Program
             }
         }
 
-        Console.WriteLine("Between {0} and {1}, there are {2} numbers divisible by 3");
+        Console.WriteLine("Between {0} and {1}, there are {2} numbers divisible by 3", start, end, count);
     }
 }
