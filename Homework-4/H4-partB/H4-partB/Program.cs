@@ -12,9 +12,10 @@ class Program
             string[] lines = File.ReadAllLines(filePath);
             int maxLineLength = 50; // Maximum length for displayed lines
 
-            // Using LINQ to find the longest and shortest lines
             var longestLine = lines.OrderByDescending(line => line.Length).FirstOrDefault() ?? "";
             var shortestLine = lines.OrderBy(line => line.Length).FirstOrDefault() ?? "";
+            // Using LINQ to find lines consisting of 'var'
+            var varLines = lines.Where(line => line.Trim() == "var").ToList();
 
             // Display Header
             Console.WriteLine("Line Analysis:");
@@ -39,9 +40,7 @@ class Program
             Console.WriteLine("\nShortest Line:");
             Console.WriteLine(shortestLine);
 
-            // Using LINQ to find lines consisting of 'var'
-            var varLines = lines.Where(line => line.Trim() == "var").ToList();
-
+          
             Console.WriteLine("\nLines consisting of the word 'var':");
             if (varLines.Any())
             {
