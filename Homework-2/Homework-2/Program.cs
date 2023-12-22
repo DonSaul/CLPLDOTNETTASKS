@@ -53,7 +53,7 @@ class Program
         public string Mark { get; set; }
         public int Age { get; set; }
 
-        public override readonly string ToString()
+        public override  string ToString()
         {
             return $"Name: {Name}, Mark: {Mark}, Age: {Age}";
         }

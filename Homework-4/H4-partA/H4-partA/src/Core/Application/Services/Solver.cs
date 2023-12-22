@@ -1,8 +1,7 @@
 ﻿using System;
 using Homework_4.src.Core.Entities;
 
-namespace Homework_4.src.Core.Application.Services
-{
+
 	public class Solver
 	{
         public List<Shape> FilterShapesByArea(List<Shape> shapes, double minArea, double maxArea)
@@ -20,5 +19,5 @@ namespace Homework_4.src.Core.Application.Services
             shapes.RemoveAll(s => s.Perimeter() < minPerimeter);
         }
     }
-}
+
 
