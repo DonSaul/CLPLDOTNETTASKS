@@ -13,6 +13,19 @@ namespace Task_3.src.Util
             }
             return value;
         }
+        // Method to get a sequence of positive integers
+        public static List<int> GetPositiveIntegersSequence()
+        {
+            var numbers = new List<int>();
+            Console.WriteLine("Enter positive integers (negative number to stop):");
+            while (true)
+            {
+                int num = GetValidInteger();
+                if (num < 0) break;
+                numbers.Add(num);
+            }
+            return numbers;
+        }
 
         // Validates and gets a non-empty string
         public static string GetValidString()
@@ -46,18 +59,6 @@ namespace Task_3.src.Util
             return input;
         }
 
-        // Method to get a sequence of positive integers
-        public static List<int> GetPositiveIntegersSequence()
-        {
-            var numbers = new List<int>();
-            Console.WriteLine("Enter positive integers (negative number to stop):");
-            while (true)
-            {
-                int num = GetValidInteger();
-                if (num < 0) break;
-                numbers.Add(num);
-            }
-            return numbers;
-        }
+      
     }
 }
