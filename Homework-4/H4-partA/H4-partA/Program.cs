@@ -34,12 +34,14 @@ class Program
         // Filter and write shapes with area in range [10,100] to a file
         var shapesWithAreaInRange = solver.FilterShapesByArea(shapes, 10, 100);
         userDisplay.WriteShapesToFile("ShapesWithAreaInRange.txt", shapesWithAreaInRange);
-        Console.WriteLine("\nFiltered shapes by area ranging between 10 and 100. You can check the result in ShapesWithAreaInRange.txt");
+        Console.WriteLine("\nFiltered shapes by area ranging between 10 and 100... Done.");
+Console.WriteLine("\nResult saved in 'ShapesWithNameContainingA.txt'.");
 
         // Filter and write shapes with 'a' in their name to a file
         var shapesWithNameContainingA = solver.FilterShapesByName(shapes, "a");
         userDisplay.WriteShapesToFile("ShapesWithNameContainingA.txt", shapesWithNameContainingA);
-        Console.WriteLine("\nFiltered shapes with the letter 'a' in their name. You can check the result in ShapesWithNameContainingA.txt");
+        Console.WriteLine("\nFiltering shapes to find those with the letter 'a' in their name... Done.");
+        Console.WriteLine("\nResult saved in 'ShapesWithNameContainingA.txt'.");
 
 
         Console.WriteLine("\nRemoving shapes with perimeter less than 5... Wait a moment please");
