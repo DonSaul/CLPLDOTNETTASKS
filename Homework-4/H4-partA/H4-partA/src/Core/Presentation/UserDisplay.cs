@@ -29,8 +29,9 @@ namespace Homework_4.src.Core.Presentation
             string dimension = type == "Circle" ? $"Radius: {((Circle)shape).Radius:F2}" : $"Side: {((Square)shape).Side:F2}";
             return $"{index}. {type,-10} | {name,-15} | {dimension,-12} | {shape.Area(),-6} | {shape.Perimeter(),-10}";
 
-   
 
-}
+
+        }
+    }
 }
 
