@@ -58,6 +58,9 @@ Confirmed! Name: John, Age: 34
 Task 3: Circle Calculations
 ----------------------------
 Enter the radius of the circle (e.g., 3.14):
+-3
+Please enter a positive number. For example, 15.75.
+Enter the radius of the circle (e.g., 3.14):
 400
 Length of Circle: 2,513.27
 Area of Circle: 502,654.82
@@ -66,5 +69,4 @@ Volume of Sphere: 268,082,573.11
 
 All calculations complete!
 Many thanks for trying this program! Have a good day! Process Terminated.
-
 ```

@@ -26,7 +26,7 @@ Line                                               | Symbols
 Welcome to Homework 4!                             |      22
 This line is short.                                |      19
 var usage in a simple sentence.                    |      31
-The quick brown fox jumps over the lazy dog.       |      44
+The quick brown fox jumps over the lazy dog.     |      44
 1234567890!@#$%^&*()_+[];'./,\<>?:"{}|=            |      39
 Special characters: ~`!@#$%^&*()-_+={}[]|\:;"'<... |      52
 Here is a line with a variable declaration: int... |      61
