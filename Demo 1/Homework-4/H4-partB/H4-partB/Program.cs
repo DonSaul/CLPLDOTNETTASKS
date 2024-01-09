@@ -14,7 +14,7 @@ class Program
 
             var longestLine = lines.OrderByDescending(line => line.Length).FirstOrDefault() ?? "";
             var shortestLine = lines.OrderBy(line => line.Length).FirstOrDefault() ?? "";
-            // Using LINQ to find lines consisting of 'var'
+            // Find lines consisting of 'var'
             var varLines = lines.Where(line => line.Trim() == "var").ToList();
 
             // Display Header
