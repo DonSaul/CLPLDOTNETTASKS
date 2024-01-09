@@ -5,19 +5,19 @@ class Program
 {
     static void Main()
     {
-        // Replace these paths with paths valid on your Mac
         string homeDirectory = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
-        string inputFile = Path.Combine(homeDirectory + "/Desktop/FilesTest", "data.txt");
+        string inputFile = Path.Combine(homeDirectory, "Desktop/FilesTest/data.txt");
         string outputFile = Path.Combine(homeDirectory, "rez.txt");
-        string directoryForTxtFiles = homeDirectory + "/Desktop/FilesTest"; // Change to a directory of your choice
+
+        string directoryForTxtFiles = Path.Combine("D:\\"); // Cambia esto según tu configuración
 
         // Task 1: Read from data.txt and write to rez.txt
         Console.WriteLine("Task 1:\n--------------------------");
         ReadAndWriteFile(inputFile, outputFile);
 
-        // Task 2: Write information about directories and files from a specific path
+        // Task 2: Write information about directories and files from disk C
         Console.WriteLine("\nTask 2:\n--------------------------");
-        WriteDirectoryInfo(homeDirectory, Path.Combine(homeDirectory, "DirectoryC.txt"));
+        WriteDirectoryInfo("C:\\", Path.Combine(homeDirectory, "DirectoryC.txt"));
 
         // Task 3: Select and print .txt files from a specific directory
         Console.WriteLine("\nTask 3:\n--------------------------");
@@ -25,6 +25,7 @@ class Program
 
         Console.WriteLine("Many thanks for trying this program! Have a good day! Process Terminated.\n");
     }
+
 
     static void ReadAndWriteFile(string inputFile, string outputFile)
     {

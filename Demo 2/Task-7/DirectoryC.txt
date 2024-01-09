@@ -1,0 +1,35 @@
+Directory: $Recycle.Bin, Type: Directory, Size: N/A
+Directory: $WinREAgent, Type: Directory, Size: N/A
+Directory: adobeTemp, Type: Directory, Size: N/A
+Directory: AMD, Type: Directory, Size: N/A
+Directory: Archivos de programa, Type: Directory, Size: N/A
+Directory: Config.Msi, Type: Directory, Size: N/A
+Directory: data, Type: Directory, Size: N/A
+Directory: Documents and Settings, Type: Directory, Size: N/A
+Directory: edb, Type: Directory, Size: N/A
+Directory: flutter, Type: Directory, Size: N/A
+Directory: MinGW, Type: Directory, Size: N/A
+Directory: MSI, Type: Directory, Size: N/A
+Directory: OneDriveTemp, Type: Directory, Size: N/A
+Directory: PerfLogs, Type: Directory, Size: N/A
+Directory: Program Files, Type: Directory, Size: N/A
+Directory: Program Files (x86), Type: Directory, Size: N/A
+Directory: ProgramData, Type: Directory, Size: N/A
+Directory: Python39, Type: Directory, Size: N/A
+Directory: Recovery, Type: Directory, Size: N/A
+Directory: Riot Games, Type: Directory, Size: N/A
+Directory: Ruby31-x64, Type: Directory, Size: N/A
+Directory: ruta, Type: Directory, Size: N/A
+Directory: System Volume Information, Type: Directory, Size: N/A
+Directory: Users, Type: Directory, Size: N/A
+Directory: Windows, Type: Directory, Size: N/A
+Directory: xampp, Type: Directory, Size: N/A
+File: 98983AF61272, Type: , Size: 40 bytes
+File: AVScanner.ini, Type: .ini, Size: 30 bytes
+File: bootTel.dat, Type: .dat, Size: 112 bytes
+File: DumpStack.log, Type: .log, Size: 8192 bytes
+File: DumpStack.log.tmp, Type: .tmp, Size: 8192 bytes
+File: flutter_windows_3.3.10-stable.zip, Type: .zip, Size: 858445277 bytes
+File: hiberfil.sys, Type: .sys, Size: 6840946688 bytes
+File: pagefile.sys, Type: .sys, Size: 12884901888 bytes
+File: swapfile.sys, Type: .sys, Size: 16777216 bytes
