@@ -58,7 +58,7 @@ class Program
 
     static void WriteDirectoryInfo(string path, string outputFilePath)
     {
-        Console.WriteLine("Writing info about files and directories into DirectoryInfo.txt");
+        Console.WriteLine($"Writing info about files and directories in {path} into {outputFilePath}");
         Console.WriteLine("Wait a moment please...");
 
         try
@@ -69,13 +69,17 @@ class Program
 
             using (StreamWriter writer = new StreamWriter(outputFilePath))
             {
+                // Escribiendo información sobre directorios
                 foreach (DirectoryInfo dir in directories)
                 {
-                    writer.WriteLine($"Directory: {dir.Name}, Size: N/A");
+                    writer.WriteLine($"Directory: {dir.Name}, Type: Directory, Size: N/A");
                 }
+
+                // Escribiendo información sobre archivos
                 foreach (FileInfo file in files)
                 {
-                    writer.WriteLine($"File: {file.Name} Size: {file.Length} bytes");
+                    string fileType = file.Extension.ToLower(); // Obtiene la extensión del archivo
+                    writer.WriteLine($"File: {file.Name}, Type: {fileType}, Size: {file.Length} bytes");
                 }
 
                 Console.WriteLine($"Done! You can find the file at: {outputFilePath}");
@@ -95,6 +99,9 @@ class Program
         }
     }
 
+
+
+
     static void PrintTxtFilesFromDirectory(string directoryPath)
     {
         try
@@ -102,11 +109,12 @@ class Program
             DirectoryInfo dirInfo = new DirectoryInfo(directoryPath);
             FileInfo[] txtFiles = dirInfo.GetFiles("*.txt");
 
+            Console.WriteLine($"Inspecting directory: {directoryPath}");
             Console.WriteLine($"{txtFiles.Length} files found");
 
             for (int i = 0; i < txtFiles.Length; i++)
             {
-                Console.WriteLine($"File {i + 1} info: ");
+                Console.WriteLine($"File {i + 1} info:");
                 Console.WriteLine($"Name: \"{txtFiles[i].Name}\"");
                 Console.WriteLine("Content:");
                 Console.WriteLine(File.ReadAllText(txtFiles[i].FullName));
@@ -126,4 +134,5 @@ class Program
             Console.WriteLine("General Exception: " + ex.Message);
         }
     }
+
 }
