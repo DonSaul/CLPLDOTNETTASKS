@@ -22,26 +22,29 @@ Content:
 Fun Facts about Arnold Schwarzenegger:
 
 1. Arnold won the Mr. Olympia title seven times.
-2. He moved to the U.S. from Austria at age 21.
-3. Schwarzenegger started weight training at the age of 15.
-4. He served as the Governor of California from 2003 to 2011.
-5. Arnold is known for his work in Hollywood, especially in action films like the Terminator series.      
-6. He has a degree in business and international economics from the University of Wisconsin.
+2. Emigrated to the U.S. from Austria at 21.
+3. Started weight training at 15.
+4. California Governor from 2003-2011.
+5. Famous for action films like the Terminator series.
+6. Holds a business and economics degree from the University of Wisconsin.
 
 File 2 info:
-Name: "micro_story_2.txt"
-Content:
-"For sale: baby shoes, never worn" - Often attributed to Ernest Hemingway.
-
-File 3 info:
-Name: "micro_story_3.txt"
-Content:
-"The last man on Earth sat alone in a room. There was a knock on the door..." - Often attributed to Fredererick Brown.
-
-File 4 info:
 Name: "micro_story_1.txt"
 Content:
-"When I Woke Up, The Dinosaur Was Still There" - by Augusto Monterroso
+"When I Woke Up, The Dinosaur Was Still There"
+- by Augusto Monterroso
+
+File 3 info:
+Name: "micro_story_2.txt"
+Content:
+"For sale: baby shoes, never worn"
+- Often attributed to Ernest Hemingway.
+
+File 4 info:
+Name: "micro_story_3.txt"
+Content:
+"The last man on Earth sat alone in a room. There was a knock on the door..."
+- Often attributed to Frederick Brown.
 
 Many thanks for trying this program! Have a good day! Process Terminated.
 ```
