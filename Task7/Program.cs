@@ -27,3 +27,42 @@ else
 {
     Console.WriteLine($"Uhhhhh... {input} doesn't exist.");
 }
+
+Console.WriteLine($"\nListing all files and folders at the root of disk C");
+
+string root = OperatingSystem.IsWindows() ? "C:\\" : "/";
+
+string dirInfoOut = $"{HOME}/DirectoryC.txt";
+
+static long GetDirLength(DirectoryInfo dir)
+{
+    long len = 0;
+    try
+    {
+        FileInfo[] files = dir.GetFiles();
+        len = files.Sum(f => f.Length);
+    }
+    catch (UnauthorizedAccessException) { }
+    try
+    {
+        DirectoryInfo[] dirs = dir.GetDirectories();
+        len += dirs.Sum(d => GetDirLength(d));
+    }
+    catch (UnauthorizedAccessException) { }
+    return len;
+}
+
+using (StreamWriter writer = new(dirInfoOut))
+{
+    writer.WriteLine("Name:                    Type: Size (Bytes):");
+    foreach (DirectoryInfo dir in Directory.GetDirectories(root).Select(path => new DirectoryInfo(path)))
+    {
+        writer.WriteLine("{0,-25}/dir  {1}", dir.Name, GetDirLength(dir));
+    }
+    foreach (FileInfo file in Directory.GetFiles(root).Select(path => new FileInfo(path)))
+    {
+        writer.WriteLine("{0,-25}{1,-6}{2}", file.Name, file.Extension, file.Length);
+    }
+}
+
+Console.WriteLine($"Written to {dirInfoOut}");
