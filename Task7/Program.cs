@@ -1,7 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-string output = $"{Environment.GetFolderPath(System.Environment.SpecialFolder.UserProfile)}/rez.txt";
-string input = $"{Environment.GetFolderPath(System.Environment.SpecialFolder.UserProfile)}/data.txt";
+string HOME = Environment.GetFolderPath(System.Environment.SpecialFolder.UserProfile);
+
+string output = $"{HOME}/rez.txt";
+string input = $"{HOME}/data.txt";
 
 Console.WriteLine($"Writing data from {input} to {output}...");
 if (File.Exists(input))
