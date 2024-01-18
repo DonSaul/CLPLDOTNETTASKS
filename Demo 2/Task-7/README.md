@@ -1,4 +1,20 @@
-﻿# Task 7 : Working with File in C#
+﻿# Task 7 : Working with Files in C#
+This project is a C# program designed to perform file and directory reading 
+and writing operations. It can read data from a text file, write to another, 
+list detailed information about files and directories in a specific directory, 
+and display the contents of text files in a given location.
+
+## Features
+- **File Reading and Writing**: Reads data from a `data.txt` file and writes it to `rez.txt`.
+- **Listing Files and Directories**: Generates a file with detailed information (name, type, size) about all files and directories in a specified directory.
+- **Displaying Text File Contents**: Displays the content of all `.txt` files in a specific directory.
+- **Exception Handling**: Captures and handles appropriate exceptions such as `FileNotFoundException`, `IOException`, `UnauthorizedAccessException`, and other general exceptions.
+
+## Requirements
+- .NET Core or .NET Framework (depending on your development environment).
+- Access to system directories and files for reading/writing.
+
+## Example Prompt
 ```
 Task 1:
 --------------------------
