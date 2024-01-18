@@ -104,13 +104,14 @@ class Program
 
             using (StreamWriter writer = new StreamWriter(outputFilePath))
             {
-                // Escribiendo información sobre directorios
+                // Writing information about directories
                 foreach (DirectoryInfo dir in directories)
                 {
-                    writer.WriteLine($"Directory: {dir.Name}, Type: Directory, Size: N/A");
+                    long dirSize = CalculateDirectorySize(dir);
+                    writer.WriteLine($"Directory: {dir.Name}, Size: {dirSize} bytes");
                 }
 
-                // Escribiendo información sobre archivos
+                // Writing information about files
                 foreach (FileInfo file in files)
                 {
                     string fileType = file.Extension.ToLower(); // Obtiene la extensión del archivo
@@ -135,6 +136,31 @@ class Program
     }
 
 
+    /*
+      Calculates the total size of a directory by recursively adding up 
+      The sizes of all the files and subdirectories contained within it. 
+    */
+
+    static long CalculateDirectorySize(DirectoryInfo directory)
+    {
+        long size = 0;
+
+        // Add up the size of all files in the directory.
+        FileInfo[] files = directory.GetFiles();
+        foreach (FileInfo file in files)
+        {
+            size += file.Length;
+        }
+
+        // Sumar tamaño de todos los subdirectorios.
+        DirectoryInfo[] subDirs = directory.GetDirectories();
+        foreach (DirectoryInfo dir in subDirs)
+        {
+            size += CalculateDirectorySize(dir);
+        }
+
+        return size;
+    }
 
 
     static void PrintTxtFilesFromDirectory(string directoryPath)
