@@ -11,9 +11,14 @@ class Program
 
         string directoryForTxtFiles = Path.Combine("D:\\"); // Cambia esto según tu configuración
 
-        // Task 1: Read from data.txt and write to rez.txt
+        // Task 1: Read from data.txt and write to rez.txt using StreamReader and StreamWriter
         Console.WriteLine("Task 1:\n--------------------------");
         ReadAndWriteFile(inputFile, outputFile);
+
+        // Task 1.1: Read from data.txt and write to rez.txt using File methods
+        Console.WriteLine("\nTask 1 Alternative: Using File methods\n--------------------------");
+        ReadAndWriteFileSimple(inputFile, outputFile);
+
 
         // Task 2: Write information about directories and files from disk C
         Console.WriteLine("\nTask 2:\n--------------------------");
@@ -31,15 +36,44 @@ class Program
     {
         try
         {
-            Console.WriteLine($"Reading data from: {inputFile}");
+            Console.WriteLine($"Reading data from: {inputFile} using StreamReader and StreamWriter");
+            Console.WriteLine("Wait a moment please...");
+
+            using (StreamReader reader = new StreamReader(inputFile))
+            using (StreamWriter writer = new StreamWriter(outputFile))
+            {
+                string line;
+                while ((line = reader.ReadLine()) != null)
+                {
+                    writer.WriteLine(line);
+                }
+            }
+
+            Console.WriteLine($"Writing complete. You can find the data in: {outputFile}");
+        }
+        catch (FileNotFoundException ex)
+        {
+            Console.WriteLine("File not found: " + ex.Message);
+        }
+        catch (IOException ex)
+        {
+            Console.WriteLine("IO Exception: " + ex.Message);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("General Exception: " + ex.Message);
+        }
+    }
+
+    static void ReadAndWriteFileSimple(string inputFile, string outputFile)
+    {
+        try
+        {
+            Console.WriteLine($"Reading data from: {inputFile} using File methods");
             Console.WriteLine("Wait a moment please...");
 
             string data = File.ReadAllText(inputFile);
-
-            using (StreamWriter writer = new StreamWriter(outputFile))
-            {
-                writer.Write(data);
-            }
+            File.WriteAllText(outputFile, data);
 
             Console.WriteLine($"Writing complete. You can find the data in: {outputFile}");
         }
