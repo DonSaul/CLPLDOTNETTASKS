@@ -14,11 +14,25 @@ and display the contents of text files in a given location.
 - .NET Core or .NET Framework (depending on your development environment).
 - Access to system directories and files for reading/writing.
 
+## Function Description
+- **ReadAndWriteFile:** Reads data from a specified input file using StreamReader and writes it to a specified output file using StreamWriter. This method handles reading and writing line by line, which is useful for processing large files.
+- **ReadAndWriteFileSimple:** An alternative method to read and write files. It uses File.ReadAllText to read the entire content of the input file and File.WriteAllText to write it to the output file. This method is more straightforward but less efficient for large files.
+- **WriteDirectoryInfo:** Lists detailed information about files and directories in the specified directory. It writes the name, type, and size of each file and directory to a given output file.
+- **CalculateDirectorySize:** Calculates the total size of a directory by recursively summing the sizes of all files and subdirectories contained within it. This method is used to determine the size of directories in WriteDirectoryInfo.
+- **FormatSize:** Converts the size from bytes to a more readable format (KB, MB, GB).
+- **PrintTxtFilesFromDirectory:** Inspects a specified directory and prints the content of all .txt files found. It displays the file name and its content.
+
 ## Example Prompt
 ```
 Task 1:
 --------------------------
-Reading data from: C:\Users\Claudio\Desktop/FilesTest/data.txt
+Reading data from: C:\Users\Claudio\Desktop/FilesTest/data.txt using StreamReader and StreamWriter
+Wait a moment please...
+Writing complete. You can find the data in: C:\Users\Claudio\rez.txt
+
+Task 1 Alternative: Using File methods
+--------------------------
+Reading data from: C:\Users\Claudio\Desktop/FilesTest/data.txt using File methods
 Wait a moment please...
 Writing complete. You can find the data in: C:\Users\Claudio\rez.txt
 
@@ -27,7 +41,9 @@ Task 2:
 Writing info about files and directories in C:\ into C:\Users\Claudio\DirectoryC.txt
 Wait a moment please...
 ...
-(Note: You may see multiple 'Access Denied' messages due to security restrictions on certain directories. The program will continue to process accessible files and directories.)
+(Note: You may see multiple 'Access Denied' messages due to security restrictions 
+on certain directories. The program will continue to process accessible files 
+and directories.)
 ...
 
 Done! You can find the file at: C:\Users\Claudio\DirectoryC.txt
