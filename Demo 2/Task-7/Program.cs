@@ -104,22 +104,20 @@ class Program
 
             using (StreamWriter writer = new StreamWriter(outputFilePath))
             {
-                // Writing information about directories
+                // Writing information root directories
                 foreach (DirectoryInfo dir in directories)
                 {
                     long dirSize = CalculateDirectorySize(dir);
-                    writer.WriteLine($"Directory: {dir.Name}, Size: {dirSize} bytes");
+                    writer.WriteLine($"Directory: {dir.Name}, Size: {FormatSize(dirSize)}");
                 }
 
-                // Writing information about files
+                // Writing information about root files
                 foreach (FileInfo file in files)
                 {
-                    string fileType = file.Extension.ToLower(); // Obtiene la extensión del archivo
-                    writer.WriteLine($"File: {file.Name}, Type: {fileType}, Size: {file.Length} bytes");
+                    writer.WriteLine($"File: {file.Name}, Type: {file.Extension.ToLower()}, {FormatSize(file.Length)}");
                 }
-
-                Console.WriteLine($"Done! You can find the file at: {outputFilePath}");
             }
+            Console.WriteLine($"Done! You can find the file at: {outputFilePath}");
         }
         catch (UnauthorizedAccessException ex)
         {
@@ -140,28 +138,58 @@ class Program
       Calculates the total size of a directory by recursively adding up 
       The sizes of all the files and subdirectories contained within it. 
     */
+  
 
     static long CalculateDirectorySize(DirectoryInfo directory)
     {
         long size = 0;
 
-        // Add up the size of all files in the directory.
-        FileInfo[] files = directory.GetFiles();
-        foreach (FileInfo file in files)
+        try
         {
-            size += file.Length;
-        }
+            // Sumar tamaño de todos los archivos en el directorio.
+            FileInfo[] files = directory.GetFiles();
+            foreach (FileInfo file in files)
+            {
+                size += file.Length;
+            }
 
-        // Sumar tamaño de todos los subdirectorios.
-        DirectoryInfo[] subDirs = directory.GetDirectories();
-        foreach (DirectoryInfo dir in subDirs)
+            // Sumar tamaño de todos los subdirectorios.
+            DirectoryInfo[] subDirs = directory.GetDirectories();
+            foreach (DirectoryInfo dir in subDirs)
+            {
+                size += CalculateDirectorySize(dir); // Recursive call
+            }
+        }
+        catch (UnauthorizedAccessException ex)
         {
-            size += CalculateDirectorySize(dir);
+            Console.WriteLine("Access denied: " + ex.Message);
         }
-
+        catch (IOException ex)
+        {
+            Console.WriteLine("IO Exception: " + ex.Message);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("General Exception: " + ex.Message);
+        }
+     
         return size;
     }
+    static string FormatSize(long bytes)
+    {
+        const int scale = 1024;
+        string[] orders = new string[] { "GB", "MB", "KB", "Bytes" };
+        long max = (long)Math.Pow(scale, orders.Length - 1);
 
+        foreach (var order in orders)
+        {
+            if (bytes > max)
+                return string.Format("{0:##.##} {1}", decimal.Divide(bytes, max), order);
+
+            max /= scale;
+        }
+        return "0 Bytes";
+    }
 
     static void PrintTxtFilesFromDirectory(string directoryPath)
     {

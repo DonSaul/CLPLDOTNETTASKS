@@ -26,6 +26,10 @@ Task 2:
 --------------------------
 Writing info about files and directories in C:\ into C:\Users\Claudio\DirectoryC.txt
 Wait a moment please...
+...
+ Access Denied messages due to access restrictions
+...
+
 Done! You can find the file at: C:\Users\Claudio\DirectoryC.txt
 
 Task 3:
