@@ -56,21 +56,34 @@ namespace Homework2
                     switch (choice)
                     {
                         case 1:
+                            Console.Clear();
+                            Console.WriteLine("Check float numbers within range [-5,5]\n");
                             CheckFloatNumbersInRange();
+                            Console.WriteLine("Returning to the menu...\n");
                             break;
                         case 2:
+                            Console.Clear();
+                            Console.WriteLine("Find max and min of three integers\n");
                             FindMaxAndMinOfIntegers();
+                            Console.WriteLine("Returning to the menu...\n");
                             break;
                         case 3:
+                            Console.Clear();
+                            Console.WriteLine("Get HTTP Error name\n");
                             GetHTTPErrorName();
+                            Console.WriteLine("Returning to the menu...\n");
                             break;
                         case 4:
+                            Console.Clear();
+                            Console.WriteLine("Input and display Dog details\n");
                             InputAndDisplayDogDetails();
+                            Console.WriteLine("Returning to the menu...\n");
                             break;
                         case 5:
                             exit = true;
                             break;
                         default:
+                            Console.Clear();
                             Console.WriteLine("Invalid choice. Please enter a number between 1 and 5.");
                             break;
                     }
@@ -158,7 +171,7 @@ namespace Homework2
 
             do
             {
-                Console.Write("Enter HTTP Error code: ");
+                Console.Write("Enter HTTP Error code (400, 401,402, ...): ");
                 string input = Console.ReadLine();
 
                 if (int.TryParse(input, out errorCode))

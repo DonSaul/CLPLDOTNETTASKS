@@ -8,6 +8,7 @@ namespace Homework1
             // Task 1: Calculate area and perimeter of square
             int a;
             bool isValidA = false;
+            Console.WriteLine("Task 1: Calculate area and perimeter of square\n");
 
             do
             {
@@ -34,6 +35,7 @@ namespace Homework1
             // Task 2: Read user's name and age
             string name = string.Empty;
             int age;
+            Console.WriteLine("\nTask 2: Read user's name and age\n");
 
             do
             {
@@ -65,10 +67,10 @@ namespace Homework1
             Console.WriteLine("Name: {0}", name);
             Console.WriteLine("Age: {0}", age);
 
-            // Task 3: Calculate length, area, and volume of circle
+            // Task 3: Calculate perimeter, area, and volume of circle
             double r;
             bool isValidR = false;
-
+            Console.WriteLine("\nTask 3: Calculate perimeter, area, and volume of circle\n");
             do
             {
                 Console.Write("Enter the value of r: ");
@@ -84,11 +86,11 @@ namespace Homework1
                 }
             } while (!isValidR);
 
-            double circumferenceCircle = 2 * Math.PI * r;
+            double perimeterCircle = 2 * Math.PI * r;
             double areaCircle = Math.PI * r * r;
             double volumeCircle = (4.0 / 3.0) * Math.PI * r * r * r;
 
-            Console.WriteLine("Circumference of circle: {0:F4}", circumferenceCircle);
+            Console.WriteLine("Perimeter of circle: {0:F4}", perimeterCircle);
             Console.WriteLine("Area of circle: {0:F4}", areaCircle);
             Console.WriteLine("Volume of circle: {0:F4}", volumeCircle);
         }

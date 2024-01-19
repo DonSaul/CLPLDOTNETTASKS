@@ -18,7 +18,7 @@ namespace Task8.Models
 
         public override string Name
         {
-            get { return base.Name + "Staff"; }
+            get { return base.Name + " Staff"; }
         }
 
         public override void Print()

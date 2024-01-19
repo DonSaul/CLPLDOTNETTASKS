@@ -1,17 +1,7 @@
-﻿This is line 1 with regular text.
-Line 2 contains some symbols: !@#$%^&*()_+
-Another line with more symbols: ~`-={}[]\|;:'",.<>?
+﻿This is line 1
+some symbols: !@#$%^&*()_+
+more symbols: ~`-={}[]\|;:'",.<>?
 This line has no special symbols
-A line with numbers: 1234567890
-A line with punctuation: This line ends with a question mark?
-Here is a line with multiple words: This is a long line with several words.
+numbers: 1234567890
 Short line.
-Yet another line to add variety.
-A line with spaces at the beginning and end:      Spaces      .
-This is a new line to extend the content.
-Adding more lines for variety.
-Another line with symbols: @$!%&?
-A line with special characters: #@*^$^.
-One more line to make it longer.
-A line with a repetitive pattern: abcabcabcabcabc.
 And a final line to complete the text.
