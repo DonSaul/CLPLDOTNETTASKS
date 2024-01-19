@@ -1,0 +1,34 @@
+Directory: $Recycle.Bin, Size: 4,97 GB
+Directory: $WinREAgent, Size: 0 Bytes
+Directory: AMD, Size: 312,01 MB
+Directory: Archivos de programa, Size: 0 Bytes
+Directory: Config.Msi, Size: 0 Bytes
+Directory: data, Size: 300,52 MB
+Directory: Documents and Settings, Size: 0 Bytes
+Directory: edb, Size: 429,56 MB
+Directory: flutter, Size: 2,31 GB
+Directory: MinGW, Size: 377,28 MB
+Directory: MSI, Size: 154,31 KB
+Directory: OneDriveTemp, Size: 16 KB
+Directory: PerfLogs, Size: 0 Bytes
+Directory: Program Files, Size: 73,79 GB
+Directory: Program Files (x86), Size: 22,82 GB
+Directory: ProgramData, Size: 12,18 GB
+Directory: Python39, Size: 704,37 MB
+Directory: Recovery, Size: 1,08 KB
+Directory: Riot Games, Size: 17,29 GB
+Directory: Ruby31-x64, Size: 940,39 MB
+Directory: ruta, Size: 0 Bytes
+Directory: System Volume Information, Size: 0 Bytes
+Directory: Users, Size: 172,83 GB
+Directory: Windows, Size: 34,71 GB
+Directory: xampp, Size: 814,66 MB
+File: 98983AF61272, Type: , 40 Bytes
+File: AVScanner.ini, Type: .ini, 30 Bytes
+File: bootTel.dat, Type: .dat, 112 Bytes
+File: DumpStack.log, Type: .log, 8 KB
+File: DumpStack.log.tmp, Type: .tmp, 8 KB
+File: flutter_windows_3.3.10-stable.zip, Type: .zip, 818,68 MB
+File: hiberfil.sys, Type: .sys, 6,37 GB
+File: pagefile.sys, Type: .sys, 12,5 GB
+File: swapfile.sys, Type: .sys, 16 MB
