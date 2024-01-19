@@ -138,22 +138,20 @@ class Program
       Calculates the total size of a directory by recursively adding up 
       The sizes of all the files and subdirectories contained within it. 
     */
-  
-
     static long CalculateDirectorySize(DirectoryInfo directory)
     {
         long size = 0;
 
         try
         {
-            // Sumar tamaño de todos los archivos en el directorio.
+            // Summing the size of all files.
             FileInfo[] files = directory.GetFiles();
             foreach (FileInfo file in files)
             {
                 size += file.Length;
             }
 
-            // Sumar tamaño de todos los subdirectorios.
+            // Summing the size of all subdirectories.
             DirectoryInfo[] subDirs = directory.GetDirectories();
             foreach (DirectoryInfo dir in subDirs)
             {
@@ -175,6 +173,7 @@ class Program
      
         return size;
     }
+
     static string FormatSize(long bytes)
     {
         const int scale = 1024;
