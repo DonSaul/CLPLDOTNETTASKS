@@ -65,4 +65,25 @@ using (StreamWriter writer = new(dirInfoOut))
     }
 }
 
-Console.WriteLine($"Written to {dirInfoOut}");
+Console.WriteLine($"Written to {dirInfoOut}\n");
+
+Console.WriteLine("Reading files from the D disk directory...");
+
+if (!OperatingSystem.IsWindows())
+{
+    Console.WriteLine("Whooops! This test only works on windows for now...");
+    return;
+}
+IEnumerable<string> txts = Directory.GetFiles("D:\\").Where(f => f.EndsWith(".txt"));
+try
+{
+    foreach (string txt in txts)
+    {
+        using StreamReader reader = new(txt);
+        Console.WriteLine(reader.ReadToEnd());
+    }
+}
+catch (DirectoryNotFoundException)
+{
+    Console.WriteLine("There's no directory D:, shouldn't you plug in a drive??? (Next time, maybe)");
+}
