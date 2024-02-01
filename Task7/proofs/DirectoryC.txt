@@ -1,0 +1,26 @@
+Directory: $Recycle.Bin, Size: 1,69 GB
+Directory: $WinREAgent, Size: 925,23 MB
+Directory: Archivos de programa, Size: 0 Bytes
+Directory: Config.Msi, Size: 0 Bytes
+Directory: Documents and Settings, Size: 0 Bytes
+Directory: Intel, Size: 0 Bytes
+Directory: MSI, Size: 121,39 MB
+Directory: PerfLogs, Size: 0 Bytes
+Directory: php, Size: 83,39 MB
+Directory: Program Files, Size: 21,7 GB
+Directory: Program Files (x86), Size: 476,45 GB
+Directory: ProgramData, Size: 9,27 GB
+Directory: Recovery, Size: 1,08 KB
+Directory: Riot Games, Size: 69,66 GB
+Directory: System Volume Information, Size: 0 Bytes
+Directory: Users, Size: 50,84 GB
+Directory: Windows, Size: 26,96 GB
+File: appverifUI.dll, Type: .dll, 109,61 KB
+File: DumpStack.log, Type: .log, 8 KB
+File: DumpStack.log.tmp, Type: .tmp, 8 KB
+File: hiberfil.sys, Type: .sys, 12,74 GB
+File: mylog.log, Type: .log, 194 Bytes
+File: pagefile.sys, Type: .sys, 2 GB
+File: RHDSetup.log, Type: .log, 3,46 KB
+File: swapfile.sys, Type: .sys, 16 MB
+File: vfcompat.dll, Type: .dll, 64,66 KB
