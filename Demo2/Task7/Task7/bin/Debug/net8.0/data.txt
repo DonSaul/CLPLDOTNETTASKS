@@ -1,1 +1,5 @@
-C:\Users\madok\Desktop\HTMLCSSJAVASCRIPT\Matias_Martinez\Task7\Task7\bin\Debug\net8.0\rez.txt
+hello
+how 
+are
+you
+doing 

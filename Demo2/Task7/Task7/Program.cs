@@ -43,8 +43,8 @@ class Task7
         //1.2)File.WriteAllText
         try
         {
-
-            File.WriteAllText(filePathData, filePathRez);
+            //Write text from data.txt into rez.txt using WriteAllText
+            File.WriteAllText(filePathRez, filePathData);
             Console.WriteLine("1.2) Contents from data.txt were written into rez.txt successfully using WriteAllText");
         }
         catch (Exception e)

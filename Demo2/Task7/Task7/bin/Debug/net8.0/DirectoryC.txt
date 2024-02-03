@@ -6,20 +6,15 @@ Name: $Windows.~WS
 Name: $WinREAgent
 Name: docker
 Name: Documents and Settings
-Name: Matias
-Name: MEMORIA TITULO
+Name: logs
 Name: OneDriveTemp
 Name: PerfLogs
 Name: Program Files
 Name: Program Files (x86)
 Name: ProgramData
-Name: proyectSoftserve
 Name: Recovery
-Name: softserveTrabajos
-Name: src
-Name: System Volume Information
+Name: Users
 Name: Windows
-Name: xampp
 Files:
 Name: hiberfil.sys, Type: File, Size: 10239557632 bytes
 Name: pagefile.sys, Type: File, Size: 1610612736 bytes
