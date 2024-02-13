@@ -1,14 +1,19 @@
 
+import ListGroup from 'react-bootstrap/ListGroup';
+
 export const NameList = ({ names = [] }) => {
   if (names.length === 0) {
     return <p>No names provided.</p>;
   }
 
   return (
-    <ul>
+    <ListGroup>
       {names.map((name, index) => (
-        <li key={index}>{name}</li>
+        <ListGroup.Item  
+          key={index}
+          className='border-0 p-1'
+        >{name}</ListGroup.Item>
       ))}
-    </ul>
+    </ListGroup>
   );
 };

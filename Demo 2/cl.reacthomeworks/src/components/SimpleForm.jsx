@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import Button from 'react-bootstrap/Button'
+import Form from 'react-bootstrap/Form';
 
 export const SimpleForm = () => {
   const [value, setValue] = useState("");
@@ -12,9 +14,19 @@ export const SimpleForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <input type="text" value={value} onChange={handleChange} />
-      <button type="submit">Submit</button>
-    </form>
+    <Form onSubmit={handleSubmit}>  
+      <Form.Group className="mb-3">
+        <Form.Label></Form.Label>
+        <Form.Control 
+          type="text" 
+          value={value}
+          onChange={handleChange} 
+          placeholder="Enter some text" size="md"
+          className = " shadow-none"
+          >
+        </Form.Control>
+      </Form.Group>  
+      <Button variant="dark" className="border-0 rounded-0" type="submit">Submit</Button>
+    </Form>
   );
 };
