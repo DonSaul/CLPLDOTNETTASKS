@@ -1,4 +1,3 @@
-
 import ListGroup from 'react-bootstrap/ListGroup';
 
 export const NameList = ({ names = [] }) => {
