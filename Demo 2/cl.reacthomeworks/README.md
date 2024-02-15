@@ -131,4 +131,4 @@ export const SimpleForm = () => {
 
 ```
 ## User Interface
-![User Interface React Homeworks](art/React_Homeworks_ClaudioRain.gif)
+![User Interface React Homeworks](art/React_Homeworks.gif)
