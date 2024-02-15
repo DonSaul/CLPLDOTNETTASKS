@@ -131,5 +131,4 @@ export const SimpleForm = () => {
 
 ```
 ## User Interface
-[![Click here to see the video](link-to-thumbnail-image)](art/React_Homeworks_ClaudioRain.mp4)
 
