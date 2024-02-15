@@ -120,7 +120,7 @@ export const SimpleForm = () => {
           value={value}
           onChange={handleChange} 
           placeholder="Enter some text" size="md"
-          className = " shadow-none"
+          className = "shadow-none"
           >
         </Form.Control>
       </Form.Group>  
@@ -128,4 +128,8 @@ export const SimpleForm = () => {
     </Form>
   );
 };
+
 ```
+## User Interface
+[![Click here to see the video](link-to-thumbnail-image)](art/React_Homeworks_ClaudioRain.mp4)
+

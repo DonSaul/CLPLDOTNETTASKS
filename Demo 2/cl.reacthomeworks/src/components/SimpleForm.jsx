@@ -22,7 +22,7 @@ export const SimpleForm = () => {
           value={value}
           onChange={handleChange} 
           placeholder="Enter some text" size="md"
-          className = " shadow-none"
+          className = "shadow-none"
           >
         </Form.Control>
       </Form.Group>  
