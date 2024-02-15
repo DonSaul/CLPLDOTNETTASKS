@@ -1,11 +1,11 @@
 // HW Task 5
 export const AlertForm = () => {
-    const handleSubmit = (data) => {
-        const input = data.get('input');
-        alert(input);
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        alert(e.target.input.value);
     };
     return (
-        <form action={handleSubmit}>
+        <form onSubmit={handleSubmit}>
             <input type="text" name="input"/>
             <button type="submit">Go!</button>
         </form>
