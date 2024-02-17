@@ -128,7 +128,6 @@ export const SimpleForm = () => {
     </Form>
   );
 };
-
 ```
 ## User Interface
-![User Interface React Homeworks](art/ReactHomeworks.gif)
+![User Interface React Homeworks](art/ReactHws.gif)
