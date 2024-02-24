@@ -1,4 +1,4 @@
-﻿## SoftServe | Task 3: Arithmetic and Text Operations Application
+﻿# SoftServe | Task 3: Arithmetic and Text Operations Application
 This project is designed to demonstrate various utility functions, ranging from basic arithmetic operations to string manipulations and input validations. It is structured into three main classes: `Solver`, `UserInteraction`, and `UserInputValidation`.
 
 ## Features

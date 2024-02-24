@@ -9,7 +9,7 @@ class Program
         string inputFile = Path.Combine(homeDirectory, "Desktop/FilesTest/data.txt");
         string outputFile = Path.Combine(homeDirectory, "rez.txt");
 
-        string directoryForTxtFiles = Path.Combine("D:\\"); // Cambia esto según tu configuración
+        string directoryForTxtFiles = Path.Combine("D:\\"); 
 
         // Task 1: Read from data.txt and write to rez.txt using StreamReader and StreamWriter
         Console.WriteLine("Task 1:\n--------------------------");

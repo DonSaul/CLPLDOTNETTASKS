@@ -1,4 +1,4 @@
-# CL.REACTHOMEWORKS
+# SoftServe | CL.REACTHOMEWORKS
 This repository contains solutions to a series of React homework assignments designed to reinforce fundamental concepts of React development, including component creation, props handling, state management, list rendering, and form handling.
 
 ## Requirements
@@ -16,9 +16,7 @@ Create a component that renders a simple JSX element, such as an `<h1>` with a s
 
 #### Solution
 ```jsx
-function SimpleElement() {
-  return <h1>Hello, welcome to React!</h1>;
-}
+export const SimpleElement = () => <h1>Hello, world!</h1>;
 ```
 ### 2. Using Props
 Create a component that accepts a name prop and renders a greeting message using that prop.

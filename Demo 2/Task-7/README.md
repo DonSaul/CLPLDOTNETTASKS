@@ -1,4 +1,4 @@
-﻿# Task 7 : Working with Files in C#
+﻿# SoftServe | Task 7 : Working with Files in C#
 This project is a C# program designed to perform file and directory reading 
 and writing operations. It can read data from a text file, write to another, 
 list detailed information about files and directories in a specific directory, 

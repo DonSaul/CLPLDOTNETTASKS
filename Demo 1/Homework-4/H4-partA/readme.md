@@ -1,5 +1,4 @@
-﻿
-# Homework 4 - part A
+﻿# SoftServe | Homework 4 - part A
 
 ## Purpose
 

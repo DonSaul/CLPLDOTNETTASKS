@@ -1,4 +1,4 @@
-# Homework 1: Geometric Calculation and User Interaction
+# SoftServe | Homework 1: Geometric Calculation and User Interaction
 
 ## Overview
 This C# program performs various calculations related to squares and circles. It is designed to:
