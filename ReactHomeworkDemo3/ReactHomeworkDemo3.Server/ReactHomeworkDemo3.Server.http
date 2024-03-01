@@ -1,0 +1,6 @@
+@ReactHomeworkDemo3.Server_HostAddress = http://localhost:5082
+
+GET {{ReactHomeworkDemo3.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

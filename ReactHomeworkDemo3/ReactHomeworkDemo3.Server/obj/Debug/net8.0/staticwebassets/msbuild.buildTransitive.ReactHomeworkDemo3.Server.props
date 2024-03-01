@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\ReactHomeworkDemo3.Server.props" />
+</Project>

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "eldClGfcellWvgIlCXiOE93xwb6GS3wgxShtxrxOqaNM9wIdH/W2KFerCjDjupIbQSdiaCxGQJ7jvPGU8k5BBg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\madok\\Desktop\\HTMLCSSJAVASCRIPT\\Matias_Martinez\\ReactHomeworkDemo3\\ReactHomeworkDemo3.Server\\ReactHomeworkDemo3.Server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\madok\\.nuget\\packages\\microsoft.aspnetcore.spaproxy\\8.0.2\\microsoft.aspnetcore.spaproxy.8.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

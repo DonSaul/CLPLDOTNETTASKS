@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ReactHomeworkDemo3.Server.props" />
+</Project>
